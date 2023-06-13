@@ -1,0 +1,21 @@
+To: "Kate Gilman" <kagilman@davidson.edu>
+From: "Jonad Pulaj" <jopulaj@davidson.edu>
+Subject: CSC 221 HW 7 Grade
+
+Hello Kate,
+I am sending some feedback on HW7. Your grade is 39.75/40. Some specific comments follow below.
+
+Best regards,
+
+-Jonad
+
+Compiling submission with HuffTester
+Submission compiles
+Running tests...
+Compiling submission with UnhuffTester
+Submission compiles
+Running tests...
+Passes all test cases!
+
+------------- Comments ---------------
+(-0.25) Break up lines > 80 characters. 

@@ -1,0 +1,31 @@
+To: "Kate Gilman" <kagilman@davidson.edu>
+From: "Jonad Pulaj" <hamendes@davidson.edu>
+Subject: CSC 221 HW 9 Grade
+
+Hello Kate,
+
+I am sending some feedback on HW #9. Your grade is 37.75/40. The tests and grade breakdown follow below.
+
+Best regards,
+
+-Jonad
+
+Compiling submission with SegmentTester
+Submission compiles
+Running tests...
+
+Testing ImageSegmenter.java...
+
+Segmenting file federer.jpg......Expected 4816 segments, but instead got 4958
+Total execution time: 2.775 sec
+
+Segmenting file owl.jpg......Expected 8326 segments, but instead got 8899
+Total execution time: 2.099 sec
+
+Segmenting file corvette.jpg......Expected 2757 segments, but instead got 3022
+Total execution time: 1.377 sec
+
+------------- Comments ---------------
+(-0.25) Break up all lines longer than 80 characters.
+(-1) The file and class should be named DisjointSetForest, not DisjointForestSet.
+(-1) In iteratePixels, you consider the 0th row and column 'out of bounds' and thus do not connect them to neighboring pixels, causing incorrect returns in the number of segments.

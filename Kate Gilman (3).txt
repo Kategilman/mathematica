@@ -1,0 +1,1319 @@
+To: "Kate Gilman" <kagilman@davidson.edu>
+From: "Jonad Pulaj" <jopulaj@davidson.edu>
+Subject: CSC 221 HW 8 Grade
+
+Hello Kate,
+
+I am sending some feedback on HW #8. Your grade is 37/40. The tests and grade breakdown follow below.
+
+Best regards,
+
+-Jonad
+
+Compiling submission with HW8Tester
+Submission compiles
+Running tests...
+Creating new tree (with rebalance deactivated)
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 9
+Testing parent links... OK!
+Testing levels... OK!
+Adding 11
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Removing 5
+Testing parent links... OK!
+Testing levels... OK!
+Removing 4
+Testing parent links... OK!
+Testing levels... failed! (stopping other tests)
+Creating new tree (with rebalance deactivated)
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 8
+Testing parent links... OK!
+Testing levels... OK!
+Removing 8
+Testing parent links... OK!
+Testing levels... failed! (stopping other tests)
+Creating new tree (with rebalance deactivated)
+Adding 8
+Testing parent links... OK!
+Testing levels... OK!
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Removing 8
+Testing parent links... failed! (stopping other tests)
+Creating new tree (with rebalance deactivated)
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 8
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Removing 8
+Testing parent links... OK!
+Testing levels... OK!
+Removing 7
+Testing parent links... OK!
+Testing levels... OK!
+Removing 6
+Testing parent links... OK!
+Testing levels... OK!
+Removing 5
+Testing parent links... failed! (stopping other tests)
+Creating new tree (with rebalance deactivated)
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 8
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Removing 1
+Testing parent links... OK!
+Testing levels... failed! (stopping other tests)
+Creating new tree (with rebalance deactivated)
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 6
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 9
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 8
+Testing parent links... OK!
+Testing levels... OK!
+Removing 8
+Testing parent links... OK!
+Testing levels... failed! (stopping other tests)
+Creating new tree (with rebalance deactivated)
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 1
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 2
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (with rebalance deactivated)
+Adding 7
+Testing parent links... OK!
+Testing levels... OK!
+Adding 5
+Testing parent links... OK!
+Testing levels... OK!
+Adding 4
+Testing parent links... OK!
+Testing levels... OK!
+Adding 3
+Testing parent links... OK!
+Testing levels... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 9
+Testing rotateLeft and rotateRight... OK!
+Adding 11
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Removing 5
+Testing rotateLeft and rotateRight... OK!
+Removing 4
+Testing rotateLeft and rotateRight... OK!
+Removing 11
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 8
+Testing rotateLeft and rotateRight... OK!
+Removing 8
+Testing rotateLeft and rotateRight... OK!
+Removing 7
+Testing rotateLeft and rotateRight... OK!
+Removing 6
+Testing rotateLeft and rotateRight... OK!
+Removing 5
+Testing rotateLeft and rotateRight... OK!
+Removing 4
+Testing rotateLeft and rotateRight... OK!
+Removing 3
+Testing rotateLeft and rotateRight... OK!
+Removing 2
+Testing rotateLeft and rotateRight... OK!
+Removing 1
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 8
+Testing rotateLeft and rotateRight... OK!
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Removing 8
+Testing rotateLeft and rotateRight... OK!
+Removing 7
+Testing rotateLeft and rotateRight... OK!
+Removing 6
+Testing rotateLeft and rotateRight... OK!
+Removing 5
+Testing rotateLeft and rotateRight... OK!
+Removing 4
+Testing rotateLeft and rotateRight... OK!
+Removing 3
+Testing rotateLeft and rotateRight... OK!
+Removing 2
+Testing rotateLeft and rotateRight... OK!
+Removing 1
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 8
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Removing 8
+Testing rotateLeft and rotateRight... OK!
+Removing 7
+Testing rotateLeft and rotateRight... OK!
+Removing 6
+Testing rotateLeft and rotateRight... OK!
+Removing 5
+Testing rotateLeft and rotateRight... OK!
+Removing 4
+Testing rotateLeft and rotateRight... OK!
+Removing 3
+Testing rotateLeft and rotateRight... OK!
+Removing 2
+Testing rotateLeft and rotateRight... OK!
+Removing 1
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 8
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Removing 1
+Testing rotateLeft and rotateRight... OK!
+Removing 2
+Testing rotateLeft and rotateRight... OK!
+Removing 3
+Testing rotateLeft and rotateRight... OK!
+Removing 4
+Testing rotateLeft and rotateRight... OK!
+Removing 5
+Testing rotateLeft and rotateRight... OK!
+Removing 6
+Testing rotateLeft and rotateRight... OK!
+Removing 7
+Testing rotateLeft and rotateRight... OK!
+Removing 8
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 9
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 8
+Testing rotateLeft and rotateRight... OK!
+Removing 8
+Testing rotateLeft and rotateRight... OK!
+Removing 2
+Testing rotateLeft and rotateRight... OK!
+Removing 1
+Testing rotateLeft and rotateRight... OK!
+Removing 9
+Testing rotateLeft and rotateRight... OK!
+Removing 7
+Testing rotateLeft and rotateRight... OK!
+Removing 3
+Testing rotateLeft and rotateRight... OK!
+Adding 9
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Removing 4
+Testing rotateLeft and rotateRight... OK!
+Removing 6
+Testing rotateLeft and rotateRight... OK!
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 6
+Testing rotateLeft and rotateRight... OK!
+Adding 8
+Testing rotateLeft and rotateRight... OK!
+Removing 2
+Testing rotateLeft and rotateRight... OK!
+Removing 9
+Testing rotateLeft and rotateRight... OK!
+Removing 5
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 1
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 2
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (correct implementation with student's rotation)
+Adding 7
+Testing rotateLeft and rotateRight... OK!
+Adding 5
+Testing rotateLeft and rotateRight... OK!
+Adding 4
+Testing rotateLeft and rotateRight... OK!
+Adding 3
+Testing rotateLeft and rotateRight... OK!
+Creating new tree (with rebalance activated)
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 9
+Testing calculateSkew + rebalance... OK!
+Adding 11
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Removing 5
+Testing calculateSkew + rebalance... OK!
+Removing 4
+Testing calculateSkew + rebalance... OK!
+Removing 11
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 8
+Testing calculateSkew + rebalance... OK!
+Removing 8
+Testing calculateSkew + rebalance... OK!
+Removing 7
+Testing calculateSkew + rebalance... OK!
+Removing 6
+Testing calculateSkew + rebalance... OK!
+Removing 5
+Testing calculateSkew + rebalance... OK!
+Removing 4
+Testing calculateSkew + rebalance... OK!
+Removing 3
+Testing calculateSkew + rebalance... OK!
+Removing 2
+Testing calculateSkew + rebalance... OK!
+Removing 1
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 8
+Testing calculateSkew + rebalance... OK!
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Removing 8
+Testing calculateSkew + rebalance... OK!
+Removing 7
+Testing calculateSkew + rebalance... OK!
+Removing 6
+Testing calculateSkew + rebalance... OK!
+Removing 5
+Testing calculateSkew + rebalance... OK!
+Removing 4
+Testing calculateSkew + rebalance... OK!
+Removing 3
+Testing calculateSkew + rebalance... OK!
+Removing 2
+Testing calculateSkew + rebalance... OK!
+Removing 1
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 8
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Removing 8
+Testing calculateSkew + rebalance... OK!
+Removing 7
+Testing calculateSkew + rebalance... OK!
+Removing 6
+Testing calculateSkew + rebalance... OK!
+Removing 5
+Testing calculateSkew + rebalance... OK!
+Removing 4
+Testing calculateSkew + rebalance... OK!
+Removing 3
+Testing calculateSkew + rebalance... OK!
+Removing 2
+Testing calculateSkew + rebalance... OK!
+Removing 1
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 8
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Removing 1
+Testing calculateSkew + rebalance... OK!
+Removing 2
+Testing calculateSkew + rebalance... OK!
+Removing 3
+Testing calculateSkew + rebalance... OK!
+Removing 4
+Testing calculateSkew + rebalance... OK!
+Removing 5
+Testing calculateSkew + rebalance... OK!
+Removing 6
+Testing calculateSkew + rebalance... OK!
+Removing 7
+Testing calculateSkew + rebalance... OK!
+Removing 8
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 9
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 8
+Testing calculateSkew + rebalance... OK!
+Removing 8
+Testing calculateSkew + rebalance... OK!
+Removing 2
+Testing calculateSkew + rebalance... OK!
+Removing 1
+Testing calculateSkew + rebalance... OK!
+Removing 9
+Testing calculateSkew + rebalance... OK!
+Removing 7
+Testing calculateSkew + rebalance... OK!
+Removing 3
+Testing calculateSkew + rebalance... OK!
+Adding 9
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Removing 4
+Testing calculateSkew + rebalance... OK!
+Removing 6
+Testing calculateSkew + rebalance... OK!
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 6
+Testing calculateSkew + rebalance... OK!
+Adding 8
+Testing calculateSkew + rebalance... OK!
+Removing 2
+Testing calculateSkew + rebalance... OK!
+Removing 9
+Testing calculateSkew + rebalance... OK!
+Removing 5
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 1
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 2
+Testing calculateSkew + rebalance... OK!
+Creating new tree (with rebalance activated)
+Adding 7
+Testing calculateSkew + rebalance... OK!
+Adding 5
+Testing calculateSkew + rebalance... OK!
+Adding 4
+Testing calculateSkew + rebalance... OK!
+Adding 3
+Testing calculateSkew + rebalance... OK!
+
+------------- Comments ---------------
+(-2) Approach to updateLevels() is incorrect.
+(-1) Break up lines > 80 chars. 
+

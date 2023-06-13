@@ -1,0 +1,103 @@
+To: "Kate Gilman" <kagilman@davidson.edu>
+From: \Jonad Pulaj" <jopulaj@davidson.edu>
+Subject: CSC 221 HW 6 Grade
+
+Hello Kate,
+
+I am sending some feedback on HW #6. Your grade is 35/35. The tests and grade breakdown follow below.
+
+Best regards,
+
+-Jonad
+
+Compiling submission with GradeWordFinder
+Submission compiles
+Running tests...
+
+Testing WordOnBoardFinder with following board:
+  t  t  r  e  s
+  h  r  m  v  a
+  e  r  l  t  e
+  t  e  e  f  e
+  t  a  i  r  b
+
+Testing with query beefeater...passed!
+Testing with query saver...passed!
+Testing with query theta...passed!
+Testing with query three...passed!
+Testing with query leer...passed!
+Testing with query fiat...passed!
+Testing with query teat...passed!
+Testing with query aves...passed!
+Testing with query felt...passed!
+Testing with query letter...passed!
+Testing with query reel...passed!
+Testing with query tease...passed!
+Testing with query fire...passed!
+Testing with query feta...passed!
+Testing with query mesa...passed!
+Testing with query vet...passed!
+Testing with query be...passed!
+Testing with query beer...passed!
+Testing with query tatter...passed!
+Testing with query leaf...passed!
+Testing with query tail...passed!
+Testing with query letters...passed!
+Testing with query savers...passed!
+Testing with query tell...passed!
+Testing with query feeler...passed!
+Passed all tests!
+
+
+Testing WordOnBoardFinder with following board:
+  i  l  g  a  n
+  e  e  k  e  m
+  n  c  o  y  v
+  l  a  u  i  p
+  i  o qu  e  h
+
+Testing with query quail...passed!
+Testing with query pique...passed!
+Testing with query quip...passed!
+Testing with query quack...passed!
+Testing with query liquor...passed!
+Testing with query piqued...passed!
+Testing with query queue...passed!
+Passed all tests!
+
+
+Testing WordOnBoardFinder with following board:
+  a  c qu  i
+  c qu  o  l
+ qu  i  t  f
+  i  r  m  n
+
+Testing with query acquit...passed!
+Testing with query acquire...passed!
+Passed all tests!
+
+Compiling submission with GradeAutoPlayer
+Submission compiles
+Running tests...
+
+Testing AutoPlayer with following board:
+  y  o  r  e
+  m  c  y  h
+  f  o  i  r
+  i  m  h  e
+
+
+Testing AutoPlayer with following board:
+ qu  e  r  a  s
+  s  e  p  n  t
+  t  i  o  n  e
+ qu  i  n  e  r
+  t  e  r  s  p
+
+
+Passed all test cases!
+
+
+------------- Comments ---------------
+Well done!
+

@@ -1,0 +1,25 @@
+To: "Kate Gilman" <kagilman@davidson.edu>
+From: "Jonad Pulaj" <jopulaj@davidson.edu>
+Subject: CSC 221 Quiz 3 Grade
+
+Hello Kate,
+
+I am sending some feedback on Quiz #3. Your grade is 5/14. The tests and grade breakdown follow below.
+
+Best regards,
+
+-Jonad
+Testing isomorphicPairs:
+
+Testing isomorphicPairs: "abca" "zbxz" "opqr" Answer: 1 Correct
+Testing isomorphicPairs: "aa" "ab" "bb" "cc" "cd" Answer: 1 Incorrect. Expected 4.
+Testing isomorphicPairs: "k" "h" "o" "j" "g" "z" "n" "t" "w" "c" "b" "i" "s" "a" "u" "f" "e" "d" "l" "x" "p" "r" "v" "m" "q" "y" Answer: 21 Incorrect. Expected 325.
+Testing isomorphicPairs: "aab" "abb" "cdd" "ccd" Answer: 2 Correct
+Testing isomorphicPairs: "cacccdaabc" "cdcccaddbc" "dcdddbccad" "bdbbbaddcb" "bdbcadbbdc" "abaadcbbda" "babcdabbac" "cacdbaccad" "dcddabccad" "cacccbaadb" "bbcdcbcbdd" "bcbadcbbca" Answer: 7 Incorrect. Expected 13.
+Testing isomorphicPairs: "abc" "aaa" Answer: 0 Correct
+*******************************************
+
+------------- Comments ---------------
+
+(-2) Only Quiz3.java was submitted, and this is buggy, look at test cases above.
+(-7) No submission

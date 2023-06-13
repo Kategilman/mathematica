@@ -1,0 +1,1935 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     91982,       1927]
+NotebookOptionsPosition[     87911,       1854]
+NotebookOutlinePosition[     88308,       1870]
+CellTagsIndexPosition[     88265,       1867]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "8.1"}]], "Input",
+ CellChangeTimes->{{3.8225922841888514`*^9, 
+  3.822592289406486*^9}},ExpressionUUID->"97581507-ef5a-4de4-9a32-\
+be2794a9f83b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"RegularPolygon", "[", "3", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.822592273897499*^9, 3.8225922798273783`*^9}},
+ CellLabel->
+  "In[524]:=",ExpressionUUID->"65d93aaa-6322-4e51-9ecc-eaf74af76bce"],
+
+Cell[BoxData[
+ GraphicsBox[
+  InterpretationBox[
+   PolygonBox[
+    NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+      Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+      0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+   RegularPolygon[3]]]], "Output",
+ CellChangeTimes->{3.822592283710799*^9},
+ CellLabel->
+  "Out[524]=",ExpressionUUID->"2c3ac3c3-99cb-48fe-a53f-bf94301c40d4"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"8.2", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.822592291546928*^9, 
+  3.822592295904763*^9}},ExpressionUUID->"04e81c71-ec34-47ec-83d5-\
+be0f3ccfd68e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+    RowBox[{"Circle", "[", "]"}], ",", "Red"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8225922998669167`*^9, 3.822592313289003*^9}, {
+  3.822592345437881*^9, 3.822592411332822*^9}},
+ CellLabel->
+  "In[527]:=",ExpressionUUID->"4658663a-4252-4259-a413-dff8fb0c5915"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0, 0], CircleBox[{0, 0}]}]], "Output",
+ CellChangeTimes->{3.8225923558060827`*^9, 3.822592411859367*^9},
+ CellLabel->
+  "Out[527]=",ExpressionUUID->"bd4a5c49-ea83-4b63-a435-8ba9c2470113"]
+}, Open  ]],
+
+Cell[BoxData["8.3"], "Input",
+ CellChangeTimes->{{3.822592426412744*^9, 
+  3.822592427103751*^9}},ExpressionUUID->"b8f9d290-3a88-44d8-81ed-\
+3524c93412be"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+    RowBox[{"RegularPolygon", "[", "8", "]"}], ",", "Red"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.822592433853187*^9, 3.822592460146554*^9}},
+ CellLabel->
+  "In[529]:=",ExpressionUUID->"719a255b-a340-4bc1-bc36-60b7fb753b81"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0, 0], 
+   InterpretationBox[
+    PolygonBox[
+     NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+       Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+       Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+       Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+        Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+        Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+        Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+        Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+      0.3826834323650898, -0.9238795325112867}, {
+      0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+      0.3826834323650898}, {0.3826834323650898, 
+      0.9238795325112867}, {-0.3826834323650898, 
+      0.9238795325112867}, {-0.9238795325112867, 
+      0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+    RegularPolygon[8]]}]], "Output",
+ CellChangeTimes->{{3.822592451850707*^9, 3.822592460518763*^9}},
+ CellLabel->
+  "Out[529]=",ExpressionUUID->"37a15623-9612-4a88-8b90-ee11e970d35a"]
+}, Open  ]],
+
+Cell[BoxData["8.4"], "Input",
+ CellChangeTimes->{{3.8225924851794662`*^9, 
+  3.822592489056706*^9}},ExpressionUUID->"7b17463b-a65a-42b9-a2b1-\
+e712a399e6e2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"Disk", "[", "]"}], ",", 
+      RowBox[{"Hue", "[", "x", "]"}]}], "]"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "1", ",", ".1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.822592507281888*^9, 3.822592624961338*^9}},
+ CellLabel->
+  "In[534]:=",ExpressionUUID->"cb92f89c-5ebf-4bb1-8f50-001af8848865"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[
+    {Hue[0.], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.1], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.2], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.30000000000000004`], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.4], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.5], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.6000000000000001], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.7000000000000001], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.8], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[0.9], DiskBox[{0, 0}]}], ",", 
+   GraphicsBox[
+    {Hue[1.], DiskBox[{0, 0}]}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.822592600990348*^9, 3.822592625445352*^9}},
+ CellLabel->
+  "Out[534]=",ExpressionUUID->"07892f9a-2610-4803-9597-8ac509e4f41a"]
+}, Open  ]],
+
+Cell[BoxData["8.5"], "Input",
+ CellChangeTimes->{{3.8225926411043587`*^9, 
+  3.82259264189437*^9}},ExpressionUUID->"f75d55ab-6677-4b47-bf60-\
+14b00d84496f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Graphics", "[", 
+     RowBox[{"Style", "[", 
+      RowBox[{
+       RowBox[{"RegularPolygon", "[", "3", "]"}], ",", "Red"}], "]"}], "]"}], 
+    ",", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"Style", "[", 
+      RowBox[{
+       RowBox[{"RegularPolygon", "[", "3", "]"}], ",", "Green"}], "]"}], 
+     "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.82259265518442*^9, 3.822592726196746*^9}},
+ CellLabel->
+  "In[540]:=",ExpressionUUID->"76b0143a-82b3-440c-b8e8-26d6e5108c81"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     GraphicsBox[
+      {RGBColor[1, 0, 0], 
+       InterpretationBox[
+        PolygonBox[
+         NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+           Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+           0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+        RegularPolygon[3]]}]},
+    {
+     GraphicsBox[
+      {RGBColor[0, 1, 0], 
+       InterpretationBox[
+        PolygonBox[
+         NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+           Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+           0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+        RegularPolygon[3]]}]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{{3.822592694605763*^9, 3.822592726668397*^9}},
+ CellLabel->
+  "Out[540]=",ExpressionUUID->"26d60ccb-a469-45fc-9396-c4fc480928b8"]
+}, Open  ]],
+
+Cell[BoxData["8.6"], "Input",
+ CellChangeTimes->{{3.822592730348104*^9, 
+  3.822592731250695*^9}},ExpressionUUID->"2b1b6a1d-7c73-4252-b7ff-\
+dd6540862c8c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"RegularPolygon", "[", "x", "]"}], ",", "Pink"}], "]"}], "]"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "5", ",", "10"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.822592774690872*^9, 3.822592820632183*^9}},
+ CellLabel->
+  "In[543]:=",ExpressionUUID->"d620726a-63e0-497b-9eaa-5091735b5671"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[
+    {RGBColor[1, 0.5, 0.5], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[1, 0.5, 0.5], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+         Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+         Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+         Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+         0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5, 
+         0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+      RegularPolygon[6]]}], ",", 
+   GraphicsBox[
+    {RGBColor[1, 0.5, 0.5], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+         Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+         Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+         1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+          Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+         0.4338837391175581, -0.9009688679024191}, {
+         0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+         0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+         0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+      RegularPolygon[7]]}], ",", 
+   GraphicsBox[
+    {RGBColor[1, 0.5, 0.5], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+         Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+         Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+         Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+          Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+        0.3826834323650898, -0.9238795325112867}, {
+        0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+        0.3826834323650898}, {0.3826834323650898, 
+        0.9238795325112867}, {-0.3826834323650898, 
+        0.9238795325112867}, {-0.9238795325112867, 
+        0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+      RegularPolygon[8]]}], ",", 
+   GraphicsBox[
+    {RGBColor[1, 0.5, 0.5], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 9] Pi], -Cos[Rational[1, 9] Pi]}, {
+         Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {
+         Cos[Rational[1, 18] Pi], Sin[Rational[1, 18] Pi]}, {
+         Sin[Rational[2, 9] Pi], Cos[Rational[2, 9] Pi]}, {0, 
+         1}, {-Sin[Rational[2, 9] Pi], Cos[Rational[2, 9] Pi]}, {-
+          Cos[Rational[1, 18] Pi], Sin[Rational[1, 18] Pi]}, {
+         Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {-
+          Sin[Rational[1, 9] Pi], -Cos[Rational[1, 9] Pi]}}, {{
+         0.3420201433256687, -0.9396926207859084}, {
+         0.8660254037844386, -0.5}, {0.984807753012208, 
+         0.17364817766693033`}, {0.6427876096865393, 0.7660444431189781}, {0, 
+         1}, {-0.6427876096865393, 0.7660444431189781}, {-0.984807753012208, 
+         0.17364817766693033`}, {-0.8660254037844386, -0.5}, \
+{-0.3420201433256687, -0.9396926207859084}}]],
+      RegularPolygon[9]]}], ",", 
+   GraphicsBox[
+    {RGBColor[1, 0.5, 0.5], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{
+         Rational[1, 4] (-1 + 
+           5^Rational[1, 2]), -(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (1 + 
+           5^Rational[1, 2]), -(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {1, 0}, {
+         Rational[1, 4] (1 + 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (-1 + 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (1 - 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {-1, 0}, {
+         Rational[1, 4] (-1 - 5^
+           Rational[1, 2]), -(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (1 - 5^
+           Rational[1, 2]), -(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2]}}, {{
+         0.30901699437494745`, -0.9510565162951535}, {
+         0.8090169943749475, -0.5877852522924731}, {1, 0}, {
+         0.8090169943749475, 0.5877852522924731}, {0.30901699437494745`, 
+         0.9510565162951535}, {-0.30901699437494745`, 
+         0.9510565162951535}, {-0.8090169943749475, 0.5877852522924731}, {-1, 
+         0}, {-0.8090169943749475, -0.5877852522924731}, \
+{-0.30901699437494745`, -0.9510565162951535}}]],
+      RegularPolygon[10]]}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.822592784736332*^9, 3.822592821170039*^9}},
+ CellLabel->
+  "Out[543]=",ExpressionUUID->"7a272d0a-83a7-4bb8-af63-102d6e282020"]
+}, Open  ]],
+
+Cell[BoxData["8.7"], "Input",
+ CellChangeTimes->{{3.8225928333520937`*^9, 
+  3.822592834123396*^9}},ExpressionUUID->"a78f65e6-bd04-4288-9fa5-\
+8d99f9c515d7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+    RowBox[{"Cylinder", "[", "]"}], ",", "Purple"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.822592839867331*^9, 3.822592868779113*^9}},
+ CellLabel->
+  "In[545]:=",ExpressionUUID->"7fd87ee3-0be6-4dba-b2fc-18613ff98bd8"],
+
+Cell[BoxData[
+ Graphics3DBox[
+  {RGBColor[0.5, 0, 0.5], CylinderBox[{{0, 0, -1}, {0, 0, 1}}]}]], "Output",
+ CellChangeTimes->{{3.822592860558667*^9, 3.822592869236051*^9}},
+ CellLabel->
+  "Out[545]=",ExpressionUUID->"0a314b99-a366-486f-905f-a6d8aa4ae33b"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"8.8", " ", "-", " ", 
+  RowBox[{"NEED", " ", "HELP"}]}]], "Input",
+ CellChangeTimes->{{3.8225928726849833`*^9, 3.822592873334135*^9}, {
+  3.822593458898563*^9, 
+  3.822593462907899*^9}},ExpressionUUID->"6a728209-425d-4dd1-acfb-\
+1cef513bad2c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"RegularPolygon", "[", "x", "]"}], ",", 
+      RowBox[{"RandomColor", "[", "]"}]}], "]"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "8", ",", "3", ",", 
+     RowBox[{"-", "1"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.822592904507964*^9, 3.8225929989619923`*^9}, {
+  3.822593039346787*^9, 3.82259306483143*^9}, {3.8225933546049547`*^9, 
+  3.822593377373611*^9}, {3.822593428846685*^9, 3.8225934524361153`*^9}, {
+  3.822643654463718*^9, 3.822643676375681*^9}},
+ CellLabel->
+  "In[575]:=",ExpressionUUID->"3baf3c20-e7f7-4738-881f-ce23d3d69e29"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[
+    {RGBColor[
+     0.27465630916084205`, 0.22756817557562115`, 0.24062246316845037`], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+         Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+         Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+         Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+          Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+        0.3826834323650898, -0.9238795325112867}, {
+        0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+        0.3826834323650898}, {0.3826834323650898, 
+        0.9238795325112867}, {-0.3826834323650898, 
+        0.9238795325112867}, {-0.9238795325112867, 
+        0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+      RegularPolygon[8]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.7344763876386451, 0.1837674948815049, 0.01835457775564797], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+         Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+         Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+         1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+          Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+         0.4338837391175581, -0.9009688679024191}, {
+         0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+         0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+         0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+      RegularPolygon[7]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.6438117221270763, 0.6270821077180357, 0.9891091202985642], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+         Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+         Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+         Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+         0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5, 
+         0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+      RegularPolygon[6]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.9150398935894235, 0.2770649849281299, 0.23902120012140915`], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[
+     0.11374452523112666`, 0.37940913313321256`, 0.42771734727108335`], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+         2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+          Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+        0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+        0.7071067811865475}, {-0.7071067811865475, 
+        0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+      RegularPolygon[4]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.004881956652090569, 0.4143566011523918, 0.6075676593653592], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+         Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+         0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+      RegularPolygon[3]]}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8225929992695637`*^9, 3.822593002047112*^9}, {
+  3.822593043409536*^9, 3.8225930653085318`*^9}, {3.8225933629771357`*^9, 
+  3.822593378924342*^9}, {3.8225934357302628`*^9, 3.822593452875401*^9}, {
+  3.822643660157296*^9, 3.822643678458572*^9}},
+ CellLabel->
+  "Out[575]=",ExpressionUUID->"8e44ed0e-6552-42f8-9a98-97dad75ffbff"]
+}, Open  ]],
+
+Cell[BoxData["\"\<\>"], "Input",
+ CellChangeTimes->{
+  3.822643679750916*^9},ExpressionUUID->"2145b347-125b-4cdf-bd06-\
+ac571f64d4b2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Reverse", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Style", "[", 
+        RowBox[{
+         RowBox[{"RegularPolygon", "[", "n", "]"}], ",", 
+         RowBox[{"RandomColor", "[", "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "3", ",", "8"}], "}"}]}], "]"}], "]"}], "]"}], ",", 
+   "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.822643568153242*^9, 3.82264361404182*^9}, {
+  3.8226437204701977`*^9, 3.822643733349358*^9}},
+ CellLabel->
+  "In[577]:=",ExpressionUUID->"d8ba25b4-bb9d-4232-a9b4-a1232baaba17"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[{
+     {RGBColor[0.11205289694858744`, 0.9261303572651218, 0.4149558564589053], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.4188264490730431, 0.9573218251397348, 0.019454851187278965`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[0.685172691148477, 0.9048680647381993, 0.8580776418521587], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[
+      0.45099231350398483`, 0.37388424150341426`, 0.26906609186081276`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.49819145901131123`, 0.4193060754108062, 0.3168402611520236], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[0.8807290986587846, 0.5025682139400605, 0.7077026598099321], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.9032754601913289, 0.8070779214393788, 0.05548808073480527], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.7300539213196791, 0.9375465360252597, 0.3458611631922526], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[
+      0.22451800610633188`, 0.2867252421615276, 0.34694464436515293`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[0.7248512973083607, 0.9605501738761306, 0.42731592216857606`], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[
+      0.021914715049314637`, 0.07364056403653363, 0.2968229413169685], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[
+      0.6504882354272266, 0.32759593596031555`, 0.13851818465875376`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.669665591065965, 0.9618004437179333, 0.9989719817579426], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.2556392814888431, 0.2880990433322823, 0.19467946440006156`], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[
+      0.20195578929167435`, 0.17703020972314087`, 0.7138152365566153], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[0.46120097778783187`, 0.2774027446882683, 0.450186134948348], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.17473626045042612`, 0.6362937783283327, 0.4033605855204323], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[0.25620076413652737`, 0.3427475615664104, 0.886268473419801], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.05098972691085302, 0.13125481542841433`, 0.6566817034245387], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.7225816205893101, 0.41216749732277314`, 0.8250024065977815], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[0.58576548481312, 0.17285600818951008`, 0.6044159664184303], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[
+      0.48879518862848426`, 0.44433198175109156`, 0.5128699184343668], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.6523619265912906, 0.47449208397675613`, 0.3667212937784936], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[
+      0.21061217774199692`, 0.39135977385397025`, 0.4384185582115363], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.10242731875222644`, 0.7839008104797762, 0.3581185715557844], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.4798111352504064, 0.12007037781497432`, 0.7695460858531844], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[0.876464203100104, 0.5676397346889817, 0.45321355760709436`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[0.2975540407344923, 0.4378586821427062, 0.866878833782255], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.6429893527470423, 0.11798924287513435`, 0.8903216951150643], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[0.8935712778031109, 0.5902531506797353, 0.7129125944565642], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.50350298772076, 0.014824479048904049`, 0.14971814309387033`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.04329825349596761, 0.3564211477081849, 0.4555064950500274], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[0.23102268174952667`, 0.2604081675138403, 0.4361198015769021], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[
+      0.13072247006778803`, 0.1342215323194309, 0.47917128873209736`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.3698340002322331, 0.8234764234634162, 0.15068086074367937`], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[
+      0.10140097654109081`, 0.9809175527259972, 0.24767584727571768`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.25318136752314313`, 0.8184072949315357, 0.5321133189456411], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.8159717987876467, 0.5543156281359398, 0.9849392273986473], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[0.35583572259236895`, 0.5605595165023698, 0.7714554621519625], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[
+      0.43200234794176295`, 0.8210607348128551, 0.17924616302701968`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.8930409800649186, 0.4880321443121576, 0.4067380747235856], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[0.9908867333312301, 0.280195016521406, 0.2693248866311546], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.7832397248176832, 0.7840842581275982, 0.865217319874948], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.2578792062527804, 0.541938741154304, 0.32316163341119886`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[0.696466139226509, 0.8449008547585697, 0.8037840010216737], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[0.6215234668732958, 0.0625107501336859, 0.05358017829671824], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.9142959704575835, 0.39522032715128885`, 0.1991663902617149], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[0.23710717199336062`, 0.6157992337105169, 0.6813341848884535], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.9605290562879507, 0.05947882986988451, 0.5058452480630236], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.639245026543785, 0.17588984384239081`, 0.6727387534898785], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[0.04513217816751003, 0.5549058632113697, 0.5884552692699974], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[
+      0.043024189096753096`, 0.48799023987186585`, 0.03237608815687443], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.5168669427587977, 0.7757270467379205, 0.4932877176353796], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[0.808381025326105, 0.7898886737250737, 0.9612610532311985], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}], ",", 
+   GraphicsBox[{
+     {RGBColor[0.7725080914994558, 0.10404919474390706`, 0.8862291302764262], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+           Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+           Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+         0.3826834323650898, -0.9238795325112867}, {
+         0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+         0.3826834323650898}, {0.3826834323650898, 
+         0.9238795325112867}, {-0.3826834323650898, 
+         0.9238795325112867}, {-0.9238795325112867, 
+         0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+       RegularPolygon[8]]}, 
+     {RGBColor[0.4430182424047644, 0.3928397490128952, 0.25866861046593836`], 
+      
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+          Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+          1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+           Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+           Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+          0.4338837391175581, -0.9009688679024191}, {
+          0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+          0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+          0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+       RegularPolygon[7]]}, 
+     {RGBColor[
+      0.17316931776254263`, 0.5324750434488601, 0.22546464936872468`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+          Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+          Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+          Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+          0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5,
+           0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+       RegularPolygon[6]]}, 
+     {RGBColor[0.2827667165280161, 0.7755707569200716, 0.7530954730437831], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+          1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+            Rational[1, 2], 
+           Rational[1, 4] (-1 + 
+            5^Rational[1, 2])}, {-(Rational[5, 8] + 
+             Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+           Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+          0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+          0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+          0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+       RegularPolygon[5]]}, 
+     {RGBColor[0.609161583711233, 0.5126594647478766, 0.21866834308808958`], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+          2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+           Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+         0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, 
+         0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+       RegularPolygon[4]]}, 
+     {RGBColor[
+      0.15268102862519695`, 0.20210169677033152`, 0.7506979310503523], 
+      InterpretationBox[
+       PolygonBox[
+        NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+          Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+          0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+       RegularPolygon[3]]}}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.822643614433455*^9, {3.822643727049136*^9, 3.822643733881513*^9}},
+ CellLabel->
+  "Out[577]=",ExpressionUUID->"cd2534ab-f3a3-4fa8-b134-e8788fbd5596"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"8.1", "+", " "}]], "Input",
+ CellChangeTimes->{{3.8225934672965384`*^9, 
+  3.822593473739669*^9}},ExpressionUUID->"1e057387-c629-411e-9d00-\
+f7ab2df6c561"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"RegularPolygon", "[", "5", "]"}], ",", 
+      RowBox[{"RandomColor", "[", "]"}]}], "]"}], "]"}], ",", "10"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8225934852062387`*^9, 3.822593520861828*^9}},
+ CellLabel->
+  "In[561]:=",ExpressionUUID->"99788b38-e28e-47a9-83bb-1f09de2e49df"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[
+    {RGBColor[0.859444104649554, 0.4350882441162922, 0.09170906582439398], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.472541773683969, 0.38069603289868703`, 0.9538300030502087], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.9910501741831881, 0.41632718225785825`, 0.39075574717156036`], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.38091249760228196`, 0.622715498996246, 0.8178559470308273], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.9227629767288592, 0.8980199983842911, 0.13933783748059492`], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.5072844687337448, 0.9510881020112141, 0.6792104473559766], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.4296243021168431, 0.825261463476948, 0.17053106944023333`], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.9621077752029008, 0.8465735295732735, 0.5756999458315015], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.6528758433592567, 0.9888002672645451, 0.5804105585094634], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.7242073799208155, 0.30399868218762993`, 0.9753675785671527], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.822593513547316*^9, 3.822593521375651*^9}},
+ CellLabel->
+  "Out[561]=",ExpressionUUID->"6dd4f020-32ea-4a8b-b702-40b35629d6b4"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"8.2", "+"}]], "Input",
+ CellChangeTimes->{{3.822593526220224*^9, 
+  3.82259352959947*^9}},ExpressionUUID->"69dac51f-a9be-48e8-a32d-\
+f14df5f5fe62"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"RegularPolygon", "[", "20", "]"}], ",", 
+      RowBox[{"RandomColor", "[", "]"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"Disk", "[", "]"}], ",", 
+      RowBox[{"RandomColor", "[", "]"}]}], "]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.822593538307046*^9, 3.8225936189213333`*^9}},
+ CellLabel->
+  "In[564]:=",ExpressionUUID->"a88b472b-3b62-46ff-8348-171af44d6841"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[
+    {RGBColor[0.3816836235793619, 0.3275454985940709, 0.5303481607694751], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 20] Pi], -Cos[Rational[1, 20] Pi]}, {
+         Sin[Rational[3, 20] Pi], -Cos[Rational[3, 20] Pi]}, {
+         2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+         Cos[Rational[3, 20] Pi], -Sin[Rational[3, 20] Pi]}, {
+         Cos[Rational[1, 20] Pi], -Sin[Rational[1, 20] Pi]}, {
+         Cos[Rational[1, 20] Pi], Sin[Rational[1, 20] Pi]}, {
+         Cos[Rational[3, 20] Pi], Sin[Rational[3, 20] Pi]}, {
+         2^Rational[-1, 2], 2^Rational[-1, 2]}, {
+         Sin[Rational[3, 20] Pi], Cos[Rational[3, 20] Pi]}, {
+         Sin[Rational[1, 20] Pi], Cos[Rational[1, 20] Pi]}, {-
+          Sin[Rational[1, 20] Pi], Cos[Rational[1, 20] Pi]}, {-
+          Sin[Rational[3, 20] Pi], Cos[
+          Rational[3, 20] Pi]}, {-2^Rational[-1, 2], 2^Rational[-1, 2]}, {-
+          Cos[Rational[3, 20] Pi], Sin[Rational[3, 20] Pi]}, {-
+          Cos[Rational[1, 20] Pi], Sin[Rational[1, 20] Pi]}, {-
+          Cos[Rational[1, 20] Pi], -Sin[Rational[1, 20] Pi]}, {-
+          Cos[Rational[3, 20] Pi], -
+          Sin[Rational[3, 20] Pi]}, {-2^Rational[-1, 2], -2^
+           Rational[-1, 2]}, {-Sin[Rational[3, 20] Pi], -
+          Cos[Rational[3, 20] Pi]}, {-Sin[Rational[1, 20] Pi], -
+          Cos[Rational[1, 20] Pi]}}, CompressedData["
+1:eJxTTMoPSmViYGAQAWIQXRq8Ip2b7Yh9zBP9KSqz3+9nuOeircd31z5Xx1ZW
+ofnN/jPW9WnzFjyzh9L7oeL2UHX7ofrsoeag8+3R1NujmWePZp89mnswzIXZ
+C1MPcxfMPJi7YebC/IXuT5i5aOr3o5m3H82+/Wju2Q8A6FeQQg==
+        "]]],
+      RegularPolygon[20]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.05936755647969982, 0.8147249426937657, 0.08085577179398928], 
+     DiskBox[{0, 0}]}]}], "}"}]], "Output",
+ CellChangeTimes->{3.822593619208197*^9},
+ CellLabel->
+  "Out[564]=",ExpressionUUID->"3c16367c-c7f7-46e5-b33f-9c240684e04f"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"8.3", "+"}]], "Input",
+ CellChangeTimes->{{3.822593624309671*^9, 
+  3.822593628049469*^9}},ExpressionUUID->"643f58f7-0b17-4a73-89b4-\
+6d9acc3c1a7c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Reverse", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Graphics", "[", 
+     RowBox[{"Style", "[", 
+      RowBox[{
+       RowBox[{"RegularPolygon", "[", "n", "]"}], ",", 
+       RowBox[{"RandomColor", "[", "]"}]}], "]"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "3", ",", "10"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8225936329648848`*^9, 3.822593688560261*^9}},
+ CellLabel->
+  "In[570]:=",ExpressionUUID->"76db0914-df76-4d6e-82d6-7c680560ae24"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[
+    {RGBColor[0.8808066128293808, 0.8590124638058803, 0.1597043320690803], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{
+         Rational[1, 4] (-1 + 
+           5^Rational[1, 2]), -(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (1 + 
+           5^Rational[1, 2]), -(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {1, 0}, {
+         Rational[1, 4] (1 + 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (-1 + 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (1 - 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {-1, 0}, {
+         Rational[1, 4] (-1 - 5^
+           Rational[1, 2]), -(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+         Rational[1, 4] (1 - 5^
+           Rational[1, 2]), -(Rational[5, 8] + 
+            Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2]}}, {{
+         0.30901699437494745`, -0.9510565162951535}, {
+         0.8090169943749475, -0.5877852522924731}, {1, 0}, {
+         0.8090169943749475, 0.5877852522924731}, {0.30901699437494745`, 
+         0.9510565162951535}, {-0.30901699437494745`, 
+         0.9510565162951535}, {-0.8090169943749475, 0.5877852522924731}, {-1, 
+         0}, {-0.8090169943749475, -0.5877852522924731}, \
+{-0.30901699437494745`, -0.9510565162951535}}]],
+      RegularPolygon[10]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.3314624037748706, 0.5243411937281774, 0.5348749309252505], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 9] Pi], -Cos[Rational[1, 9] Pi]}, {
+         Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {
+         Cos[Rational[1, 18] Pi], Sin[Rational[1, 18] Pi]}, {
+         Sin[Rational[2, 9] Pi], Cos[Rational[2, 9] Pi]}, {0, 
+         1}, {-Sin[Rational[2, 9] Pi], Cos[Rational[2, 9] Pi]}, {-
+          Cos[Rational[1, 18] Pi], Sin[Rational[1, 18] Pi]}, {
+         Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {-
+          Sin[Rational[1, 9] Pi], -Cos[Rational[1, 9] Pi]}}, {{
+         0.3420201433256687, -0.9396926207859084}, {
+         0.8660254037844386, -0.5}, {0.984807753012208, 
+         0.17364817766693033`}, {0.6427876096865393, 0.7660444431189781}, {0, 
+         1}, {-0.6427876096865393, 0.7660444431189781}, {-0.984807753012208, 
+         0.17364817766693033`}, {-0.8660254037844386, -0.5}, \
+{-0.3420201433256687, -0.9396926207859084}}]],
+      RegularPolygon[9]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.27537049305584693`, 0.08196391770953282, 0.4903850856765841], 
+     
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}, {
+         Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {
+         Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {
+         Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}, {-
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}, {-
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}, {-
+          Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{
+        0.3826834323650898, -0.9238795325112867}, {
+        0.9238795325112867, -0.3826834323650898}, {0.9238795325112867, 
+        0.3826834323650898}, {0.3826834323650898, 
+        0.9238795325112867}, {-0.3826834323650898, 
+        0.9238795325112867}, {-0.9238795325112867, 
+        0.3826834323650898}, {-0.9238795325112867, -0.3826834323650898}, \
+{-0.3826834323650898, -0.9238795325112867}}]],
+      RegularPolygon[8]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.05841730778556298, 0.455919603755121, 0.48968072912236926`], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}, {
+         Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {
+         Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {0, 
+         1}, {-Cos[Rational[3, 14] Pi], Sin[Rational[3, 14] Pi]}, {-
+          Cos[Rational[1, 14] Pi], -Sin[Rational[1, 14] Pi]}, {-
+          Sin[Rational[1, 7] Pi], -Cos[Rational[1, 7] Pi]}}, {{
+         0.4338837391175581, -0.9009688679024191}, {
+         0.9749279121818236, -0.2225209339563144}, {0.7818314824680298, 
+         0.6234898018587335}, {0, 1}, {-0.7818314824680298, 
+         0.6234898018587335}, {-0.9749279121818236, -0.2225209339563144}, \
+{-0.4338837391175581, -0.9009688679024191}}]],
+      RegularPolygon[7]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.6710077589469574, 0.9110611433489499, 0.9049591196121256], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Rational[1, 2], Rational[-1, 2] 3^Rational[1, 2]}, {1, 0}, {
+         Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+         Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {-1, 0}, {
+         Rational[-1, 2], Rational[-1, 2] 3^Rational[1, 2]}}, {{
+         0.5, -0.8660254037844386}, {1, 0}, {0.5, 0.8660254037844386}, {-0.5, 
+         0.8660254037844386}, {-1, 0}, {-0.5, -0.8660254037844386}}]],
+      RegularPolygon[6]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.510974607731354, 0.37908877905720817`, 0.44951240684729443`], 
+     
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{(Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}, {(Rational[5, 8] + 
+           Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 + 5^Rational[1, 2])}, {0, 
+         1}, {-(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 
+          Rational[1, 4] (-1 + 
+           5^Rational[1, 2])}, {-(Rational[5, 8] + 
+            Rational[-1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2])}}, {{
+         0.5877852522924731, -0.8090169943749475}, {0.9510565162951535, 
+         0.30901699437494745`}, {0, 1}, {-0.9510565162951535, 
+         0.30901699437494745`}, {-0.5877852522924731, -0.8090169943749475}}]],
+      
+      RegularPolygon[5]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.7367778888346992, 0.6218310238586768, 0.13461976086305416`], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+         2^Rational[-1, 2], 2^Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+          Rational[-1, 2]}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{
+        0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+        0.7071067811865475}, {-0.7071067811865475, 
+        0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}]],
+      RegularPolygon[4]]}], ",", 
+   GraphicsBox[
+    {RGBColor[0.17448383082927688`, 0.5432657420960796, 0.5011775323292653], 
+     InterpretationBox[
+      PolygonBox[
+       NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, 1}, {
+         Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
+         0.8660254037844386, -0.5}, {0, 1}, {-0.8660254037844386, -0.5}}]],
+      RegularPolygon[3]]}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8225936434014463`*^9, 3.822593702157178*^9}},
+ CellLabel->
+  "Out[570]=",ExpressionUUID->"45428349-29b4-4bc1-a340-c7fab3ca0e29"]
+}, Open  ]]
+},
+WindowSize->{757, 788},
+WindowMargins->{{Automatic, 212}, {Automatic, 0}},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"95e0df09-d33b-4094-ad01-83aba6349623"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 192, 4, 52, "Input",ExpressionUUID->"97581507-ef5a-4de4-9a32-be2794a9f83b"],
+Cell[CellGroupData[{
+Cell[775, 28, 253, 5, 30, "Input",ExpressionUUID->"65d93aaa-6322-4e51-9ecc-eaf74af76bce"],
+Cell[1031, 35, 432, 10, 330, "Output",ExpressionUUID->"2c3ac3c3-99cb-48fe-a53f-bf94301c40d4"]
+}, Open  ]],
+Cell[1478, 48, 190, 4, 52, "Input",ExpressionUUID->"04e81c71-ec34-47ec-83d5-be0f3ccfd68e"],
+Cell[CellGroupData[{
+Cell[1693, 56, 349, 8, 30, "Input",ExpressionUUID->"4658663a-4252-4259-a413-dff8fb0c5915"],
+Cell[2045, 66, 230, 5, 376, "Output",ExpressionUUID->"bd4a5c49-ea83-4b63-a435-8ba9c2470113"]
+}, Open  ]],
+Cell[2290, 74, 155, 3, 30, "Input",ExpressionUUID->"b8f9d290-3a88-44d8-81ed-3524c93412be"],
+Cell[CellGroupData[{
+Cell[2470, 81, 314, 8, 30, "Input",ExpressionUUID->"719a255b-a340-4bc1-bc36-60b7fb753b81"],
+Cell[2787, 91, 1148, 23, 376, "Output",ExpressionUUID->"37a15623-9612-4a88-8b90-ee11e970d35a"]
+}, Open  ]],
+Cell[3950, 117, 157, 3, 30, "Input",ExpressionUUID->"7b17463b-a65a-42b9-a2b1-e712a399e6e2"],
+Cell[CellGroupData[{
+Cell[4132, 124, 460, 12, 30, "Input",ExpressionUUID->"cb92f89c-5ebf-4bb1-8f50-001af8848865"],
+Cell[4595, 138, 863, 27, 838, "Output",ExpressionUUID->"07892f9a-2610-4803-9597-8ac509e4f41a"]
+}, Open  ]],
+Cell[5473, 168, 156, 3, 30, "Input",ExpressionUUID->"f75d55ab-6677-4b47-bf60-14b00d84496f"],
+Cell[CellGroupData[{
+Cell[5654, 175, 561, 16, 52, "Input",ExpressionUUID->"76b0143a-82b3-440c-b8e8-26d6e5108c81"],
+Cell[6218, 193, 1066, 27, 362, "Output",ExpressionUUID->"26d60ccb-a469-45fc-9396-c4fc480928b8"]
+}, Open  ]],
+Cell[7299, 223, 155, 3, 30, "Input",ExpressionUUID->"2b1b6a1d-7c73-4252-b7ff-dd6540862c8c"],
+Cell[CellGroupData[{
+Cell[7479, 230, 438, 12, 30, "Input",ExpressionUUID->"d620726a-63e0-497b-9eaa-5091735b5671"],
+Cell[7920, 244, 6224, 124, 407, "Output",ExpressionUUID->"7a272d0a-83a7-4bb8-af63-102d6e282020"]
+}, Open  ]],
+Cell[14159, 371, 157, 3, 30, "Input",ExpressionUUID->"a78f65e6-bd04-4288-9fa5-8d99f9c515d7"],
+Cell[CellGroupData[{
+Cell[14341, 378, 305, 7, 30, "Input",ExpressionUUID->"7fd87ee3-0be6-4dba-b2fc-18613ff98bd8"],
+Cell[14649, 387, 255, 5, 408, "Output",ExpressionUUID->"0a314b99-a366-486f-905f-a6d8aa4ae33b"]
+}, Open  ]],
+Cell[14919, 395, 267, 6, 30, "Input",ExpressionUUID->"6a728209-425d-4dd1-acfb-1cef513bad2c"],
+Cell[CellGroupData[{
+Cell[15211, 405, 696, 16, 30, "Input",ExpressionUUID->"3baf3c20-e7f7-4738-881f-ce23d3d69e29"],
+Cell[15910, 423, 4895, 96, 412, "Output",ExpressionUUID->"8e44ed0e-6552-42f8-9a98-97dad75ffbff"]
+}, Open  ]],
+Cell[20820, 522, 134, 3, 30, "Input",ExpressionUUID->"2145b347-125b-4cdf-bd06-ac571f64d4b2"],
+Cell[CellGroupData[{
+Cell[20979, 529, 640, 17, 52, "Input",ExpressionUUID->"d8ba25b4-bb9d-4232-a9b4-a1232baaba17"],
+Cell[21622, 548, 44799, 837, 833, "Output",ExpressionUUID->"cd2534ab-f3a3-4fa8-b134-e8788fbd5596"]
+}, Open  ]],
+Cell[66436, 1388, 179, 4, 30, "Input",ExpressionUUID->"1e057387-c629-411e-9d00-f7ab2df6c561"],
+Cell[CellGroupData[{
+Cell[66640, 1396, 414, 11, 30, "Input",ExpressionUUID->"99788b38-e28e-47a9-83bb-1f09de2e49df"],
+Cell[67057, 1409, 9923, 205, 802, "Output",ExpressionUUID->"6dd4f020-32ea-4a8b-b702-40b35629d6b4"]
+}, Open  ]],
+Cell[76995, 1617, 171, 4, 30, "Input",ExpressionUUID->"69dac51f-a9be-48e8-a32d-f14df5f5fe62"],
+Cell[CellGroupData[{
+Cell[77191, 1625, 565, 15, 52, "Input",ExpressionUUID->"a88b472b-3b62-46ff-8348-171af44d6841"],
+Cell[77759, 1642, 1919, 38, 199, "Output",ExpressionUUID->"3c16367c-c7f7-46e5-b33f-9c240684e04f"]
+}, Open  ]],
+Cell[79693, 1683, 172, 4, 30, "Input",ExpressionUUID->"643f58f7-0b17-4a73-89b4-6d9acc3c1a7c"],
+Cell[CellGroupData[{
+Cell[79890, 1691, 512, 13, 30, "Input",ExpressionUUID->"76db0914-df76-4d6e-82d6-7c680560ae24"],
+Cell[80405, 1706, 7490, 145, 645, "Output",ExpressionUUID->"45428349-29b4-4bc1-a340-c7fab3ca0e29"]
+}, Open  ]]
+}
+]
+*)
+
