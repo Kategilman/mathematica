@@ -1,0 +1,979 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     42345,        971]
+NotebookOptionsPosition[     34955,        849]
+NotebookOutlinePosition[     35352,        865]
+CellTagsIndexPosition[     35309,        862]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["DIG-CSC 120: Programming in the Humanities", "Chapter",
+ CellChangeTimes->{{3.693742623117445*^9, 3.693742633347851*^9}, {
+  3.823612596629839*^9, 
+  3.823612597379713*^9}},ExpressionUUID->"9acca38f-d118-414f-8470-\
+ab1f39ba4a56"],
+
+Cell["\<\
+Davidson College
+Dr. Jakub Kabala\
+\>", "Subtitle",
+ CellChangeTimes->{{3.693742656643436*^9, 3.693742668755063*^9}, {
+   3.72995102765908*^9, 3.729951027969902*^9}, 
+   3.823612600162208*^9},ExpressionUUID->"b87646b0-1c0e-4055-b736-\
+c9febe742f52"],
+
+Cell[CellGroupData[{
+
+Cell["Coding Project 3: Sentiment and Alliteration", "Section",
+ CellChangeTimes->{{3.6937427345614147`*^9, 3.69374273727349*^9}, {
+   3.693742771704762*^9, 3.693742773298815*^9}, {3.6937754338419523`*^9, 
+   3.693775436062895*^9}, {3.693785913583249*^9, 3.693785918149992*^9}, {
+   3.694356231061364*^9, 3.694356235101305*^9}, {3.694360021142125*^9, 
+   3.694360023563376*^9}, {3.694372458713498*^9, 3.694372459208803*^9}, {
+   3.694372594589733*^9, 3.694372611242566*^9}, {3.6948036032912483`*^9, 
+   3.694803611490851*^9}, 3.694968716788463*^9, {3.695571505112939*^9, 
+   3.695571509719496*^9}, {3.695579110241002*^9, 3.695579111176942*^9}, {
+   3.695613866181032*^9, 3.695613869805315*^9}, {3.696118695866447*^9, 
+   3.696118695941413*^9}, {3.696206039263777*^9, 3.696206045230142*^9}, {
+   3.696207127245421*^9, 3.696207127490623*^9}, {3.6962089762864027`*^9, 
+   3.696208978086617*^9}, {3.696213584962401*^9, 3.6962135855257807`*^9}, {
+   3.696251390842519*^9, 3.696251391607806*^9}, {3.698571125971925*^9, 
+   3.698571129505568*^9}, {3.7299510311060057`*^9, 3.7299510311859217`*^9}, {
+   3.729951611969697*^9, 3.7299516132484417`*^9}, {3.823612602481655*^9, 
+   3.8236126038873377`*^9}, {3.8263831431034107`*^9, 
+   3.8263831498119793`*^9}},ExpressionUUID->"fbdf1c7c-d391-4b86-95a7-\
+e8d4ce5e12fd"],
+
+Cell[CellGroupData[{
+
+Cell["Guidelines", "Subsection",
+ CellChangeTimes->{{3.693788420325953*^9, 3.6937884220460873`*^9}, 
+   3.822459306880609*^9},ExpressionUUID->"46a874b1-c68b-48f9-88e8-\
+9462a6c24845"],
+
+Cell["\<\
+Work by yourself or with a partner. If you work together, you must work \
+together in pair-programming style. Indicate in your submission who you \
+worked with. \
+\>", "Item",
+ CellChangeTimes->{{3.6937884299667807`*^9, 3.693788431029339*^9}, {
+  3.69378855018909*^9, 3.693788555642076*^9}, {3.693839884383152*^9, 
+  3.693839920901946*^9}, {3.69437787667735*^9, 3.694377882875884*^9}, {
+  3.695613455751334*^9, 3.6956134561728783`*^9}, {3.6961901463157167`*^9, 
+  3.6961901646893177`*^9}, {3.696194343376392*^9, 3.6961943567723846`*^9}, {
+  3.82245915625208*^9, 3.8224591736802*^9}, {3.8224592489368887`*^9, 
+  3.822459248937037*^9}, {3.82246054412113*^9, 3.822460544844658*^9}, {
+  3.8224628191283197`*^9, 3.8224628221501827`*^9}, {3.822466535095599*^9, 
+  3.82246657467111*^9}, {3.822467691181993*^9, 3.822467749120369*^9}, {
+  3.82246833498696*^9, 3.82246834572427*^9}, {3.826383155309492*^9, 
+  3.82638316979361*^9}, {3.826387612073558*^9, 
+  3.826387650749646*^9}},ExpressionUUID->"5f68a88a-826e-4017-9f17-\
+91ae7e7f6922"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Complete your work in a new notebook. ", "Item",
+  FontColor->GrayLevel[0]],
+ StyleBox["Your notebook should be properly formatted:", "Item"],
+ StyleBox[" ", "Item",
+  FontColor->GrayLevel[0]]
+}], "Item",
+ CellChangeTimes->{{3.6937884299667807`*^9, 3.693788431029339*^9}, {
+  3.69378855018909*^9, 3.693788555642076*^9}, {3.693839884383152*^9, 
+  3.693839920901946*^9}, {3.69437787667735*^9, 3.694377882875884*^9}, {
+  3.695613455751334*^9, 3.6956134561728783`*^9}, {3.6961901463157167`*^9, 
+  3.6961901646893177`*^9}, {3.696194343376392*^9, 3.6961943567723846`*^9}, {
+  3.82245915625208*^9, 3.8224591736802*^9}, {3.822459249471674*^9, 
+  3.8224592582063417`*^9}, {3.822460617210618*^9, 3.8224606264024363`*^9}, {
+  3.822462829327898*^9, 3.8224628410832767`*^9}, {3.826383174479004*^9, 
+  3.82638320297998*^9}, {3.8263864103274403`*^9, 
+  3.826386411203948*^9}},ExpressionUUID->"5791dd0c-00d2-4a0b-b7c6-\
+b9afb5a574c6"],
+
+Cell[TextData[StyleBox["Include a title, your names, headings, etc. ", "Item",
+ 
+ FontColor->GrayLevel[0]]], "Subitem",
+ CellChangeTimes->{{3.6937884299667807`*^9, 3.693788431029339*^9}, {
+  3.69378855018909*^9, 3.693788555642076*^9}, {3.693839884383152*^9, 
+  3.693839920901946*^9}, {3.69437787667735*^9, 3.694377882875884*^9}, {
+  3.695613455751334*^9, 3.6956134561728783`*^9}, {3.6961901463157167`*^9, 
+  3.6961901646893177`*^9}, {3.696194343376392*^9, 3.6961943567723846`*^9}, {
+  3.82245915625208*^9, 3.8224591736802*^9}, {3.822459249471674*^9, 
+  3.8224592582063417`*^9}, {3.822460617210618*^9, 3.8224606264024363`*^9}, {
+  3.822462829327898*^9, 3.8224628410832767`*^9}, {3.826383174479004*^9, 
+  3.82638320297998*^9}, {3.8263864103274403`*^9, 
+  3.826386414754884*^9}},ExpressionUUID->"fe3c8862-f581-497d-8bb1-\
+0f1d59101231"],
+
+Cell[TextData[StyleBox["Avoid unnecessary white space in cells. ", "Item",
+ FontColor->GrayLevel[0]]], "Subitem",
+ CellChangeTimes->{{3.6937884299667807`*^9, 3.693788431029339*^9}, {
+   3.69378855018909*^9, 3.693788555642076*^9}, {3.693839884383152*^9, 
+   3.693839920901946*^9}, {3.69437787667735*^9, 3.694377882875884*^9}, {
+   3.695613455751334*^9, 3.6956134561728783`*^9}, {3.6961901463157167`*^9, 
+   3.6961901646893177`*^9}, {3.696194343376392*^9, 3.6961943567723846`*^9}, {
+   3.82245915625208*^9, 3.8224591736802*^9}, {3.822459249471674*^9, 
+   3.8224592582063417`*^9}, {3.822460617210618*^9, 3.8224606264024363`*^9}, {
+   3.822462829327898*^9, 3.8224628410832767`*^9}, {3.826383174479004*^9, 
+   3.82638320297998*^9}, {3.8263864103274403`*^9, 3.8263864167918043`*^9}, 
+   3.8263876594902267`*^9},ExpressionUUID->"3c10d5c1-539e-42e8-9ad9-\
+0ba4cda4de57"],
+
+Cell[TextData[StyleBox["If your answer has a written component, make sure \
+that written part is in a TEXT cell. ", "Item",
+ FontColor->GrayLevel[0]]], "Subitem",
+ CellChangeTimes->{{3.6937884299667807`*^9, 3.693788431029339*^9}, {
+  3.69378855018909*^9, 3.693788555642076*^9}, {3.693839884383152*^9, 
+  3.693839920901946*^9}, {3.69437787667735*^9, 3.694377882875884*^9}, {
+  3.695613455751334*^9, 3.6956134561728783`*^9}, {3.6961901463157167`*^9, 
+  3.6961901646893177`*^9}, {3.696194343376392*^9, 3.6961943567723846`*^9}, {
+  3.82245915625208*^9, 3.8224591736802*^9}, {3.822459249471674*^9, 
+  3.8224592582063417`*^9}, {3.822460617210618*^9, 3.8224606264024363`*^9}, {
+  3.822462829327898*^9, 3.8224628410832767`*^9}, {3.826383174479004*^9, 
+  3.82638320297998*^9}, {3.8263864103274403`*^9, 
+  3.826386410553248*^9}},ExpressionUUID->"d92ec12a-4c3d-4962-8e57-\
+e74425d1b92e"]
+}, Open  ]],
+
+Cell["\<\
+When writing a Module[...], do not repeat long chunks of code. Instead, make \
+definitions along the way, and re-use the definitions. I will count off for \
+repetitive code inside Modules[...].\
+\>", "Item",
+ CellChangeTimes->{{3.693840226565319*^9, 3.693840281524466*^9}, {
+  3.69384056762017*^9, 3.693840584649293*^9}, {3.694356264963633*^9, 
+  3.694356274363502*^9}, {3.6945512864160213`*^9, 3.6945512882057953`*^9}, {
+  3.694803622971896*^9, 3.694803623202263*^9}, {3.694879410335453*^9, 
+  3.694879446971868*^9}, {3.694971222934085*^9, 3.694971225947112*^9}, {
+  3.694971754173092*^9, 3.6949717848569317`*^9}, {3.694971821247322*^9, 
+  3.694971821511178*^9}, {3.695589073619062*^9, 3.69558908173879*^9}, {
+  3.6956475371072607`*^9, 3.6956475688622313`*^9}, {3.696194365621058*^9, 
+  3.6961943660996647`*^9}, {3.8224591925224667`*^9, 3.822459193731412*^9}, {
+  3.822459233961034*^9, 3.822459234209449*^9}, {3.822459272187962*^9, 
+  3.8224592855397263`*^9}, {3.822467676649766*^9, 3.822467686140668*^9}, {
+  3.8224677173531923`*^9, 3.8224677197787724`*^9}, {3.823676717207019*^9, 
+  3.823676814858555*^9}},ExpressionUUID->"c5932b6c-b210-4142-b8e5-\
+c4523c87a763"],
+
+Cell[TextData[{
+ "This coding project is ",
+ StyleBox["optional",
+  FontSlant->"Italic"],
+ ". If you do it, I need to receive all submissions by End of Day on ",
+ StyleBox["Friday, April 23. ",
+  FontWeight->"Bold"],
+ "If you choose not to complete it, that is fine--I will simply average your \
+grades from CP1, CP2, and CP4 for the Coding Project portion of the course \
+grade."
+}], "Item",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBWIQLSEe9Kag9bVj7gmDzyA6/8ZnsUIgzXRcRBJEi16T
+e5rT9trx/ELvZyCaJ+Cs3Bkg/WAqmzyIPiZ5P8S9/bXjh4pnYJpjj1dYDpDu
+lrwfBaLZntzVmgmk9/nZaYPoH52uuSD6T7Z0IYgWeLW8FERPit4ApqPPG986
+1vHaUXuJ+W0QvS5POe0xkE6bLp0Forfe35z+rvO1Y4nBYTDNs0NA/XDVG8dd
+6eZg+tQBOx0QfW6zG5g+ycxmCKILXDcagehHp6Z4HwfSUQ1HfMC07+oAEL3l
+9Q8w/Wz+sqWitW8cY378Wg6iV4rI6tk3vXEslWuwBNHtTs37HYC0y/pTh0D0
+l1d+l0B0k6fxZRANAEXJsXg=
+  
+  "],ExpressionUUID->"a5270f25-2f8f-4a8c-9d81-3be354f2ae8d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["0. Prep: writing your own functions", "Subsection",
+ CellChangeTimes->{{3.826386799858474*^9, 
+  3.826386807254195*^9}},ExpressionUUID->"7d378122-ecc8-4359-9a76-\
+d04e6a6d6554"],
+
+Cell["\<\
+Read Lecture 20: How to write your own functions. Work through the examples \
+there. We will also cover this in class after our 2nd mini-break. \
+\>", "Text",
+ CellChangeTimes->{{3.826386810366076*^9, 3.826386838988844*^9}, {
+  3.826387674128265*^9, 3.826387680704824*^9}, {3.826387993598542*^9, 
+  3.826387994098937*^9}},ExpressionUUID->"5c9f7079-3c96-4976-88e6-\
+ec0b844b1ebf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["1. Build a sentiment classifier", "Subsection",
+ CellChangeTimes->{{3.699884427774611*^9, 3.699884431773891*^9}, {
+   3.69988681377882*^9, 3.699886814386736*^9}, {3.700487792414351*^9, 
+   3.700487815069518*^9}, 
+   3.700488475232272*^9},ExpressionUUID->"9cb8e9c4-bfea-4f08-8e49-\
+f5e049a3b371"],
+
+Cell["\<\
+Sentiment analysis is a rapidly growing subfield in Digital Studies with \
+applications in literature, economics, political science and history. It \
+relies on a computer algorithm labeling a unit of text (usually a phrase or \
+sentence) by its emotional valence: either positive, negative, or neutral. In \
+this problem, you will build your own algorithm for calculating sentiment. \
+\>", "Text",
+ CellChangeTimes->{{3.700486416816552*^9, 3.7004864763336143`*^9}, {
+  3.732545981124655*^9, 3.732545992620236*^9}, {3.732546502049128*^9, 
+  3.732546504585503*^9}, {3.763715998985268*^9, 
+  3.76371599950839*^9}},ExpressionUUID->"df0fca99-7128-4c91-bf6d-\
+a6397604d332"],
+
+Cell[CellGroupData[{
+
+Cell["a. The assignment", "Subsubsection",
+ CellChangeTimes->{{3.70048736669573*^9, 
+  3.7004873722464123`*^9}},ExpressionUUID->"b1bb0a64-eec7-4b0a-9c9a-\
+38fbcc1843d0"],
+
+Cell[TextData[{
+ "Write a function called ",
+ StyleBox["sentiment", "Input"],
+ "[ ] that will take two arguments:"
+}], "Text",
+ CellChangeTimes->{{3.7004864097150993`*^9, 3.700486415672515*^9}, {
+  3.700486488557523*^9, 3.7004864989973516`*^9}, {3.70048658733895*^9, 
+  3.700486641936172*^9}, {3.700912146579487*^9, 3.700912147824374*^9}, {
+  3.826386486371965*^9, 
+  3.826386497198987*^9}},ExpressionUUID->"c0ca6809-b394-4b14-b10a-\
+0445ad5fdc2f"],
+
+Cell[TextData[{
+ "a ",
+ StyleBox["string", "Input"],
+ " of text (representing, say, a sentence)"
+}], "Subitem",
+ CellChangeTimes->{{3.700486685790963*^9, 3.70048668642877*^9}, {
+  3.700486736050433*^9, 3.700486737306159*^9}, {3.700487833147319*^9, 
+  3.70048783314765*^9}, {3.7004884396662073`*^9, 
+  3.70048844477011*^9}},ExpressionUUID->"f557c6c9-c969-483b-a576-\
+9efbfe12b8bd"],
+
+Cell[TextData[{
+ "a ",
+ StyleBox["parameter", "Input"],
+ StyleBox[" ", "Text"],
+ StyleBox["string", "Input"],
+ StyleBox[" (either", "Text"],
+ " \[OpenCurlyDoubleQuote]pos\[CloseCurlyDoubleQuote], \
+\[OpenCurlyDoubleQuote]neg\[CloseCurlyDoubleQuote], or \
+\[OpenCurlyDoubleQuote]sum\[CloseCurlyDoubleQuote])"
+}], "Subitem",
+ CellChangeTimes->{{3.700486685790963*^9, 3.70048668642877*^9}, {
+  3.700486736050433*^9, 3.700486737306159*^9}, {3.700487833500399*^9, 
+  3.700487839526927*^9}, {3.700487902673794*^9, 
+  3.7004879336726913`*^9}},ExpressionUUID->"d0f1c04b-15bc-4d82-b7a8-\
+7c174b886185"],
+
+Cell["and will produce:", "Text",
+ CellChangeTimes->{{3.7004866882121353`*^9, 
+  3.700486722754916*^9}},ExpressionUUID->"5a89c894-2a6b-4edb-b7ce-\
+65d16fce6fb3"],
+
+Cell[TextData[{
+ "a \[OpenCurlyQuote]sentiment\[CloseCurlyQuote] value of that ",
+ StyleBox["string", "Input"]
+}], "Subitem",
+ CellChangeTimes->{{3.700486685790963*^9, 3.70048668642877*^9}, {
+  3.700486733524138*^9, 3.700486747209497*^9}, {3.700487848364046*^9, 
+  3.700487860539227*^9}},ExpressionUUID->"24e3ae53-226c-4e7a-b6d1-\
+e99b371c73e3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["b. The steps:", "Subsubsection",
+ CellChangeTimes->{{3.700487375894533*^9, 3.700487377334414*^9}, {
+  3.7004877205643673`*^9, 3.7004877212578773`*^9}, {3.7004885495974197`*^9, 
+  3.70048854999715*^9}},ExpressionUUID->"cd53f980-0ff0-476d-a0a5-\
+210f6001fcc0"],
+
+Cell["You will follow these steps: ", "Text",
+ CellChangeTimes->{{3.7004867603616333`*^9, 
+  3.700486768872517*^9}},ExpressionUUID->"2d1c7155-e045-4043-82d9-\
+99eb7445c844"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Make sure you have the following 2 files on your computer (download from \
+Moodle):\
+\>", "Item",
+ CellChangeTimes->{{3.7004867762325373`*^9, 3.7004867775449123`*^9}, {
+  3.7004868081286783`*^9, 3.7004868510969467`*^9}, {3.7637161436566477`*^9, 
+  3.7637161597868567`*^9}, {3.826386527643853*^9, 
+  3.826386529305704*^9}},ExpressionUUID->"6648b038-0eaa-4dc9-84e5-\
+21a300c2987c"],
+
+Cell["\"negative-words.txt\"  ", "Subitem",
+ CellChangeTimes->{{3.7004867762325373`*^9, 3.7004867775449123`*^9}, {
+  3.7004868081286783`*^9, 
+  3.700486854462829*^9}},ExpressionUUID->"80740432-263d-47a3-8108-\
+101b1ef13149"],
+
+Cell[CellGroupData[{
+
+Cell["\"positive-words.txt\" ", "Subitem",
+ CellChangeTimes->{{3.7004867762325373`*^9, 3.7004867775449123`*^9}, {
+  3.7004868081286783`*^9, 
+  3.7004868533973417`*^9}},ExpressionUUID->"e4c2fbec-e450-4840-8bb1-\
+ebfa6007cbb0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"negative", "=", 
+   RowBox[{
+   "Import", "[", "\"\</Users/kate/Downloads/negative-words.txt\>\"", "]"}]}],
+   ";"}]], "Input",
+ CellChangeTimes->{{3.828133788552958*^9, 3.828133800023189*^9}, {
+   3.82813386714504*^9, 3.828133870698571*^9}, {3.828133958523624*^9, 
+   3.8281339760845127`*^9}, 3.828134447860792*^9, 3.8281345977300453`*^9, {
+   3.828135361826167*^9, 3.828135424297283*^9}},
+ CellLabel->
+  "In[133]:=",ExpressionUUID->"3de793ae-3950-4ca3-97c7-a9d30700c508"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"StringPosition", "[", 
+   RowBox[{"negative", ",", "\"\<2-faced\>\""}], "]"}], "[", 
+  RowBox[{"[", 
+   RowBox[{"1", ",", "1"}], "]"}], "]"}]], "Input",
+ CellLabel->
+  "In[127]:=",ExpressionUUID->"91f23881-0b85-4e1c-9586-1e23d08f25c7"],
+
+Cell[BoxData["1542"], "Output",
+ CellChangeTimes->{3.8281353465577583`*^9},
+ CellLabel->
+  "Out[127]=",ExpressionUUID->"36afb48d-32a3-466b-b8b6-771f642763f1"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["Before you start ",
+  FontSlant->"Italic"],
+ "writing the function, import the 2 files into your Mathematica notebook"
+}], "Item",
+ CellChangeTimes->{{3.7004867762325373`*^9, 3.7004867775449123`*^9}, {
+   3.7004868081286783`*^9, 3.7004869071391287`*^9}, {3.70048706674949*^9, 
+   3.700487066752054*^9}, 3.700487116609552*^9, {3.734339875144473*^9, 
+   3.734339893079294*^9}},ExpressionUUID->"70d824ba-b15f-43e5-989d-\
+6835a0d70293"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Before you start ",
+  FontSlant->"Italic"],
+ "writing the function, convert each file into a list of words without the \
+introductory material. Go back to Lectures 10-11: Strings if you have \
+forgotten how this works. You should create a ",
+ StyleBox["negative", "Input"],
+ StyleBox[" and ", "Text"],
+ StyleBox["positive", "Input"],
+ StyleBox[" list. ", "Text"],
+ "For example, the first 20 elements of your ",
+ StyleBox["negative", "Input"],
+ StyleBox[" list should look like this:", "Text"]
+}], "Item",
+ CellChangeTimes->{{3.7004867762325373`*^9, 3.7004867775449123`*^9}, {
+  3.7004868081286783`*^9, 3.7004869071391287`*^9}, {3.700487073079039*^9, 
+  3.7004871291375723`*^9}, {3.700487166713593*^9, 3.7004871796314993`*^9}, {
+  3.700487391655841*^9, 3.700487401069744*^9}, {3.700500347205998*^9, 
+  3.7005003476833363`*^9}, {3.732546088636442*^9, 3.732546088716309*^9}, {
+  3.734339894767634*^9, 3.734339901855783*^9}, {3.7637152335947227`*^9, 
+  3.7637152353323107`*^9}, {3.826386545600812*^9, 
+  3.826386546613371*^9}},ExpressionUUID->"491a91df-a714-4f4c-9b99-\
+e89d8543b95f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"2-faced\"\>", ",", "\<\"2-faces\"\>", ",", "\<\"abnormal\"\>", 
+   ",", "\<\"abolish\"\>", ",", "\<\"abominable\"\>", 
+   ",", "\<\"abominably\"\>", ",", "\<\"abominate\"\>", 
+   ",", "\<\"abomination\"\>", ",", "\<\"abort\"\>", ",", "\<\"aborted\"\>", 
+   ",", "\<\"aborts\"\>", ",", "\<\"abrade\"\>", ",", "\<\"abrasive\"\>", 
+   ",", "\<\"abrupt\"\>", ",", "\<\"abruptly\"\>", ",", "\<\"abscond\"\>", 
+   ",", "\<\"absence\"\>", ",", "\<\"absent-minded\"\>", 
+   ",", "\<\"absentee\"\>", ",", "\<\"absurd\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.7004870237693443`*^9, 
+  3.7004870510632257`*^9}},ExpressionUUID->"6580c6a9-f38e-4b35-8ca1-\
+5966e55d9fe6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Now start on the function. Your ",
+ StyleBox["sentiment[]", "Input"],
+ StyleBox[" function will treat each word in the ", "Text"],
+ StyleBox["string", "Input"],
+ StyleBox[" argument according to the following rules:", "Text"]
+}], "Item",
+ CellChangeTimes->{{3.700487186062755*^9, 3.700487243190136*^9}, {
+  3.700487290010573*^9, 3.7004872915633497`*^9}, {3.700487408517416*^9, 
+  3.7004874114691343`*^9}, {3.734339910287174*^9, 3.7343399128953247`*^9}, {
+  3.8263865603435373`*^9, 
+  3.826386560632072*^9}},ExpressionUUID->"179b4a9a-b6fd-4210-a3a4-\
+244ac0f47ddd"],
+
+Cell[TextData[StyleBox["If the word is in the \[OpenCurlyQuote]negative\
+\[CloseCurlyQuote] list, replace by -1", "Text"]], "Subitem",
+ CellChangeTimes->{{3.700487186062755*^9, 3.7004872103337*^9}, {
+   3.700487247108042*^9, 3.7004872583794117`*^9}, {3.700487418063966*^9, 
+   3.7004874264202003`*^9}, 
+   3.700488109512685*^9},ExpressionUUID->"19b700ee-6d1d-46a1-b973-\
+e5a1e27b52e1"],
+
+Cell[TextData[StyleBox["If the word is in the \[OpenCurlyQuote]positive\
+\[CloseCurlyQuote] list, replace by 1", "Text"]], "Subitem",
+ CellChangeTimes->{{3.700487186062755*^9, 3.7004872103337*^9}, {
+   3.700487247108042*^9, 3.70048726906656*^9}, 3.700487322730356*^9, {
+   3.700487428627695*^9, 
+   3.700487430851803*^9}},ExpressionUUID->"1f6bec44-0cfe-4624-856e-\
+b6cf62220529"],
+
+Cell[TextData[StyleBox["If the word is neither \[OpenCurlyQuote]negative\
+\[CloseCurlyQuote] or \[OpenCurlyQuote]positive,\[CloseCurlyQuote] replace by \
+0", "Text"]], "Subitem",
+ CellChangeTimes->{{3.700487186062755*^9, 3.7004872103337*^9}, {
+  3.700487247108042*^9, 
+  3.700487296938683*^9}},ExpressionUUID->"66341620-096c-426c-8e1a-\
+5d0b5de526e7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Your ", "Text"],
+ StyleBox["sentiment[]", "Input"],
+ StyleBox[" function will then produce a \[OpenCurlyQuote]sentiment value\
+\[CloseCurlyQuote] of the ", "Text"],
+ StyleBox["string", "Input"],
+ StyleBox[" according to the following rules: ", "Text"]
+}], "Item",
+ CellChangeTimes->{{3.700487186062755*^9, 3.7004872103337*^9}, {
+  3.700487247108042*^9, 3.700487348615981*^9}, {3.7004878720214567`*^9, 
+  3.700487893594487*^9}, {3.7004879486748133`*^9, 3.700487953607061*^9}, {
+  3.700487994654819*^9, 3.700488017910074*^9}, {3.7004880647866096`*^9, 
+  3.700488064858952*^9}},ExpressionUUID->"911ec4ab-af54-4425-a7a6-\
+8ff0f54efba3"],
+
+Cell[TextData[{
+ StyleBox["if the ", "Text"],
+ StyleBox["parameter string", "Input"],
+ StyleBox[" argument was \[OpenCurlyDoubleQuote]pos,\[CloseCurlyDoubleQuote] \
+the sentiment value will be the number of positive words in the ", "Text"],
+ StyleBox["string", "Input"]
+}], "Subitem",
+ CellChangeTimes->{{3.700487186062755*^9, 3.7004872103337*^9}, {
+  3.700487247108042*^9, 3.700487348615981*^9}, {3.7004878720214567`*^9, 
+  3.700487887482959*^9}, {3.700488024644576*^9, 
+  3.700488060162099*^9}},ExpressionUUID->"d52928f4-95c1-44e6-80e4-\
+0c46c638c84a"],
+
+Cell[TextData[{
+ StyleBox["if the ", "Text"],
+ StyleBox["parameter string", "Input"],
+ StyleBox[" argument was \[OpenCurlyDoubleQuote]neg,\[CloseCurlyDoubleQuote] \
+the sentiment value will be the number of negative words in the ", "Text"],
+ StyleBox["string", "Input"]
+}], "Subitem",
+ CellChangeTimes->{{3.700487186062755*^9, 3.7004872103337*^9}, {
+  3.700487247108042*^9, 3.700487348615981*^9}, {3.7004878720214567`*^9, 
+  3.700487887482959*^9}, {3.700488024644576*^9, 
+  3.700488078718601*^9}},ExpressionUUID->"6e8a1605-e45c-4d8a-829d-\
+5100eeb8f672"],
+
+Cell[TextData[{
+ StyleBox["if the ", "Text"],
+ StyleBox["parameter string", "Input"],
+ StyleBox[" argument was \[OpenCurlyDoubleQuote]sum,\[CloseCurlyDoubleQuote] \
+the sentiment value will be the sum of the replacements you made (1, -1 or 0) \
+for all words in ", "Text"],
+ StyleBox["string", "Input"]
+}], "Subitem",
+ CellChangeTimes->{{3.700487186062755*^9, 3.7004872103337*^9}, {
+  3.700487247108042*^9, 3.700487348615981*^9}, {3.7004878720214567`*^9, 
+  3.700487887482959*^9}, {3.700488024644576*^9, 
+  3.7004881281916656`*^9}},ExpressionUUID->"b4bab49f-2014-4241-8e1b-\
+39ce5b929788"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. Plot the sentiment curve of a novel of your choice", "Subsection",
+ CellChangeTimes->{{3.699884512051215*^9, 3.699884512243746*^9}, {
+  3.699884567675097*^9, 3.699884572089281*^9}, {3.69988461272001*^9, 
+  3.6998846135919*^9}, {3.699884645600301*^9, 3.699884647910716*^9}, {
+  3.699967410353443*^9, 3.699967410431888*^9}, {3.700487455178844*^9, 
+  3.700487455258869*^9}, {3.700488206084774*^9, 3.700488206212854*^9}, {
+  3.700488828633286*^9, 3.700488829537081*^9}, {3.700489406628756*^9, 
+  3.700489410015677*^9}},ExpressionUUID->"1ec0ea9d-a816-421f-a738-\
+7d26907a8cee"],
+
+Cell[CellGroupData[{
+
+Cell["a. The Assignment", "Subsubsection",
+ CellChangeTimes->{{3.826387360507176*^9, 
+  3.826387362311884*^9}},ExpressionUUID->"7db1c528-dcd5-496e-8883-\
+76a313501e2b"],
+
+Cell["\<\
+As you know from Quiz #7, sentiment analysis allows us to plot the emotional \
+arc of any digitized novel (or screen play, or any written text). See, for \
+example: http://www.matthewjockers.net/2014/06/05/a-novel-method-for-\
+detecting-plot/. Matthew Jockers\[CloseCurlyQuote]s work is the inspiration \
+for this problem. \
+\>", "Text",
+ CellChangeTimes->{{3.700488149662961*^9, 3.70048815045883*^9}, {
+  3.700488193911189*^9, 3.700488315744171*^9}, {3.8263877215531073`*^9, 
+  3.826387734416013*^9}},ExpressionUUID->"3b91fd1b-9cfb-4472-b455-\
+30cfb65c914d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["b. The Steps:", "Subsubsection",
+ CellChangeTimes->{{3.826387365144957*^9, 
+  3.826387372971805*^9}},ExpressionUUID->"9d65cc61-437f-4407-a2f8-\
+83694ee0d799"],
+
+Cell["\<\
+First, pick a novel available on Project Gutenberg whose sentiment curve you \
+would like to study. Length is not an issue -- the longer the better, in \
+fact. \
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.700488266482161*^9, 3.700488280824751*^9}, {
+  3.700488323622779*^9, 3.700488338230741*^9}, {3.7004883739332943`*^9, 
+  3.700488385302936*^9}, {3.7004885573087482`*^9, 3.700488558668687*^9}, {
+  3.70048861328627*^9, 3.700488626492694*^9}, {3.7004888342884398`*^9, 
+  3.700488840312634*^9}, {3.700488938982045*^9, 3.70048894632432*^9}, {
+  3.826387286240052*^9, 
+  3.8263872862402277`*^9}},ExpressionUUID->"c42f3387-3ddc-430e-860b-\
+ba96a0df55ca"],
+
+Cell["\<\
+Then, following the steps you learned in Lectures 10-11 (Strings), extract \
+just the text of your novel, without any Gutenberg intro & outro material. \
+Save the output.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.700488266482161*^9, 3.700488280824751*^9}, {
+  3.700488323622779*^9, 3.700488338230741*^9}, {3.7004883739332943`*^9, 
+  3.700488385302936*^9}, {3.7004885573087482`*^9, 3.700488558668687*^9}, {
+  3.70048861328627*^9, 3.700488626492694*^9}, {3.7004888342884398`*^9, 
+  3.700488840312634*^9}, {3.700488938982045*^9, 3.70048894632432*^9}, {
+  3.826387286540275*^9, 3.826387291019446*^9}, {3.826387377010592*^9, 
+  3.82638739333521*^9}},ExpressionUUID->"b3989a94-ab13-4664-bff8-\
+5df2f19386a3"],
+
+Cell[TextData[{
+ "Using y",
+ StyleBox["our ", "Text"],
+ StyleBox["sentiment[]", "Input"],
+ StyleBox[" function from Problem 1 above, convert your novel of choice into \
+a nested list containing 3 lists of numbers, with each sublist representing \
+the novel\[CloseCurlyQuote]s sentence-by-sentence.emotional trajectory. Each \
+of the three sublists should correspond to one of the possible parameters of \
+your ", "Text"],
+ StyleBox["sentiment[]", "Input"],
+ StyleBox[" function: \[OpenCurlyDoubleQuote]pos\[CloseCurlyDoubleQuote], \
+\[OpenCurlyDoubleQuote]neg\[CloseCurlyDoubleQuote], or \
+\[OpenCurlyDoubleQuote]sum.\[CloseCurlyDoubleQuote] Save this nested list \
+into a symbol. ", "Text"]
+}], "ItemNumbered",
+ CellChangeTimes->{{3.700488266482161*^9, 3.700488280824751*^9}, {
+  3.700488323622779*^9, 3.700488338230741*^9}, {3.7004883739332943`*^9, 
+  3.700488385302936*^9}, {3.7004885573087482`*^9, 3.700488558668687*^9}, {
+  3.70048861328627*^9, 3.700488626492694*^9}, {3.7004888342884398`*^9, 
+  3.700488840312634*^9}, {3.700488938982045*^9, 3.70048894632432*^9}, {
+  3.826387286540275*^9, 3.8263873273967943`*^9}, {3.826387381366827*^9, 
+  3.826387525951317*^9}},ExpressionUUID->"de9a65bc-1fe7-4d8f-8b81-\
+ef5c6a4fe5ae"],
+
+Cell[TextData[{
+ StyleBox["Create a ", "Text"],
+ StyleBox["Manipulate[]", "Input"],
+ "to visualize the emotional trajectory of your novel in smoothed out line \
+plot.  The user of the ",
+ StyleBox["Manipulate[]", "Input"],
+ "should be able to a) select the parameter (\[OpenCurlyDoubleQuote]pos\
+\[CloseCurlyDoubleQuote], \[OpenCurlyDoubleQuote]neg\[CloseCurlyDoubleQuote], \
+or \[OpenCurlyDoubleQuote]sum\[CloseCurlyDoubleQuote], and b) adjust the \
+value with which to calculate a moving average that smooths out the plot. ",
+ StyleBox["Hint",
+  FontSlant->"Italic"],
+ ": Review your use of",
+ " ",
+ StyleBox["MeanFilter[]", "Input"],
+ " from Quiz #7). ",
+ StyleBox[" ", "Input"]
+}], "ItemNumbered",
+ CellChangeTimes->{{3.700488266482161*^9, 3.700488280824751*^9}, {
+  3.700488323622779*^9, 3.700488338230741*^9}, {3.7004883739332943`*^9, 
+  3.700488385302936*^9}, {3.7004885573087482`*^9, 3.700488558668687*^9}, {
+  3.70048861328627*^9, 3.700488626492694*^9}, {3.7004888342884398`*^9, 
+  3.700488840312634*^9}, {3.700488938982045*^9, 3.70048894632432*^9}, {
+  3.826387286540275*^9, 3.826387330199369*^9}, {3.826387459287675*^9, 
+  3.826387463218547*^9}, {3.826387533483404*^9, 
+  3.826387593220693*^9}},ExpressionUUID->"d9cc3a93-79ae-433d-83dc-\
+c0f86a3142dc"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3: Alliterative Presidents", "Subsection",
+ CellChangeTimes->{{3.668727160989975*^9, 3.668727166620242*^9}, {
+   3.66878092840097*^9, 3.668780929136694*^9}, {3.6687868366723967`*^9, 
+   3.668786841478791*^9}, {3.668809911709858*^9, 3.668809914957568*^9}, {
+   3.668901852790269*^9, 3.668901853325119*^9}, {3.668953962119102*^9, 
+   3.668953962461423*^9}, 3.668954293454611*^9, {3.7004893088134823`*^9, 
+   3.700489308875533*^9}},ExpressionUUID->"bc581c4c-7371-480c-886c-\
+1d262220ab8f"],
+
+Cell["\<\
+Finally, let\[CloseCurlyQuote]s find out which of our presidents is the most \
+alliterative!\
+\>", "Text",
+ CellChangeTimes->{{3.7004893205552063`*^9, 3.70048932192323*^9}, {
+  3.7004893843282337`*^9, 3.7004893912083817`*^9}, {3.7004894531208353`*^9, 
+  3.700489453525565*^9}, {3.7004896566011744`*^9, 
+  3.700489698590723*^9}},ExpressionUUID->"fcf3f2a6-d7cb-4ddd-9e90-\
+87c3a75210bd"],
+
+Cell[CellGroupData[{
+
+Cell["a. Warm-up (optional; but it will help you!)", "Subsubsection",
+ CellChangeTimes->{{3.7004891947614317`*^9, 3.700489196617268*^9}, {
+  3.700489425430346*^9, 
+  3.7004894326643877`*^9}},ExpressionUUID->"a71936e0-5294-4010-a4b9-\
+e415d67c6159"],
+
+Cell[TextData[{
+ "a) Create a list of ",
+ StyleBox["pairs",
+  FontWeight->"Bold"],
+ " of successive alliterating words (i.e., words beginning with the same \
+letter, like ",
+ StyleBox["{terrible, tyrant}", "Input"],
+ ") in a Wikipedia article of your choice. Do this using ",
+ StyleBox["Select[]", "Input"],
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.668727181007803*^9, 3.668727247726513*^9}, {
+  3.66872813358261*^9, 3.668728162260331*^9}, {3.668780935056858*^9, 
+  3.668780942528481*^9}, {3.668781034116165*^9, 3.66878103536436*^9}, {
+  3.668781247676634*^9, 3.6687812503193197`*^9}, {3.8263877748991528`*^9, 
+  3.82638777651081*^9}},ExpressionUUID->"b8eafdaa-e1e1-4bbe-ab50-\
+69901a42bf35"],
+
+Cell[TextData[{
+ "b) Adjust your code in part (a) to create a list of ",
+ StyleBox["triplets",
+  FontWeight->"Bold"],
+ " of successive alliterating words (e.g., ",
+ StyleBox["{terrible, tyrants, terrify}", "Input"],
+ ") in the same Wikipedia article. But do this now using ",
+ StyleBox["Cases[]", "Input"],
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.668727219687755*^9, 3.6687272651088448`*^9}, {
+   3.668728149141369*^9, 3.668728155204804*^9}, {3.6687810241341877`*^9, 
+   3.668781029268565*^9}, {3.668781251834536*^9, 3.668781256946293*^9}, {
+   3.6687931031087103`*^9, 3.668793107201668*^9}, 3.700489207552761*^9, {
+   3.826387778390514*^9, 
+   3.826387779086491*^9}},ExpressionUUID->"4b91469d-0e82-4088-b37e-\
+793f71a700df"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["b. The function alliterate[ ]", "Subsubsection",
+ CellChangeTimes->{{3.7004892153437366`*^9, 
+  3.7004892278075533`*^9}},ExpressionUUID->"0b2f204f-cc61-4ec3-a99e-\
+dfc8625a842e"],
+
+Cell[TextData[{
+ "c) Now, generalize parts (a-b): write a function called ",
+ StyleBox["alliterate[]", "Input"],
+ " that will take two arguments "
+}], "Text",
+ CellChangeTimes->{{3.668727267299944*^9, 3.668727334383233*^9}, 
+   3.668736550734887*^9, {3.668781045774575*^9, 3.668781054123632*^9}, {
+   3.700489172562273*^9, 3.700489183461692*^9}, {3.700489229551497*^9, 
+   3.7004892389852343`*^9}, {3.700489275680649*^9, 
+   3.7004892772956553`*^9}},ExpressionUUID->"e56614ba-f14c-43db-8e7e-\
+cb0989dffa69"],
+
+Cell[TextData[{
+ "a ",
+ StyleBox["string", "Input"],
+ " of TEXT and"
+}], "Subitem",
+ CellChangeTimes->{{3.700489244203508*^9, 
+  3.700489266054358*^9}},ExpressionUUID->"cce24a77-e5ae-4485-906f-\
+f2f3d83c190a"],
+
+Cell[TextData[{
+ "a ",
+ StyleBox["number", "Input"],
+ " representing a LENGTH "
+}], "Subitem",
+ CellChangeTimes->{{3.700489244203508*^9, 
+  3.700489264526156*^9}},ExpressionUUID->"1c11c4a9-49a1-4267-a62c-\
+9c63a433f773"],
+
+Cell["and will return: ", "Text",
+ CellChangeTimes->{{3.700489279830596*^9, 
+  3.700489281421076*^9}},ExpressionUUID->"6213e1fb-2572-4fd3-aaf5-\
+9f54654abc4e"],
+
+Cell["\<\
+the percentage of word sequences of that LENGTH in that TEXT that alliterate. \
+\>", "Subitem",
+ CellChangeTimes->{{3.70048928664027*^9, 
+  3.7004892918767653`*^9}},ExpressionUUID->"8e8aef82-b595-4570-9f04-\
+8e9b39ff7d0c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["c. Apply ", "Subsubsection",
+ CellChangeTimes->{{3.7004893028055773`*^9, 
+  3.70048930492439*^9}},ExpressionUUID->"161d3c61-68c4-48c3-92f7-\
+5dd3afd066e9"],
+
+Cell["a) First, we need a list of URLs: ", "Text",
+ CellChangeTimes->{{3.700489909188731*^9, 
+  3.7004899233326406`*^9}},ExpressionUUID->"2f895524-b650-401b-8e6f-\
+584fe069fd77"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Import[]", "Input"],
+ " function can take a second argument that specifies what ",
+ StyleBox["element",
+  FontSlant->"Italic"],
+ " of a file or URL to import. For example, we can find all the hyperlinks on \
+my SOTU page (through 2013), as follows:"
+}], "Text",
+ CellChangeTimes->{{3.7004897683151693`*^9, 3.7004898267445707`*^9}, {
+  3.826387841978756*^9, 
+  3.826387843745702*^9}},ExpressionUUID->"90339f77-cf28-4947-847f-\
+221af249948f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Import", "[", 
+   RowBox[{
+   "\"\<http://dig101.jakubkabala.com/225_State_of_the_Unions/\>\"", ",", 
+    "\"\<Hyperlinks\>\""}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.700489713674541*^9, 3.700489743069573*^9}, 
+   3.700489804899638*^9, {3.700489836585107*^9, 3.700489845200964*^9}, {
+   3.8263878172561283`*^9, 
+   3.826387825747159*^9}},ExpressionUUID->"3106b2ad-a71d-46e9-93a2-\
+b510223f08e4"],
+
+Cell["\<\
+If you evaluate and observe, you\[CloseCurlyQuote]ll see that the first five \
+hyperlinks do not link to any SOTU. So we don\[CloseCurlyQuote]t need those \
+and we can drop them:\
+\>", "Text",
+ CellChangeTimes->{{3.700489828680649*^9, 
+  3.700489869663033*^9}},ExpressionUUID->"de514d4a-8bf6-4e5d-b3c0-\
+e23e9c86b95f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"sotuURLs", "=", 
+   RowBox[{"Drop", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+      "\"\<http://dig101.jakubkabala.com/225_State_of_the_Unions/\>\"", ",", 
+       "\"\<Hyperlinks\>\""}], "]"}], ",", "5"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.700489807964229*^9, 3.700489812641913*^9}, {
+  3.7004898619435472`*^9, 3.700489881408535*^9}, {3.826387827244503*^9, 
+  3.8263878362907457`*^9}},
+ CellLabel->
+  "In[786]:=",ExpressionUUID->"6ae23a82-6c83-478b-bf7e-26fd3b7372d1"],
+
+Cell[TextData[{
+ "b) Now, using ",
+ StyleBox["alliterate[]", "Input"],
+ ", ",
+ StyleBox["sotuURLs", "Input"],
+ ", and various mappings, produce some plots showing the percentage of \
+sequences in each of the 225 SOTUs that alliterate. Pretend that you are \
+preparing your charts for publication: pay very close attention to aesthetic \
+presentation. Make sure, in other words, that your plots and axes are \
+appropriately sized, styled and titled. \n\n",
+ StyleBox["Make 3 plots total: each one corresponding to a different \
+alliterative sequence length.",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.7004899262605267`*^9, 3.700490072142194*^9}, {
+  3.700490262496826*^9, 3.700490324403151*^9}, {3.700491036765768*^9, 
+  3.7004910599636917`*^9}, {3.732546236062603*^9, 
+  3.732546337983717*^9}},ExpressionUUID->"c0e4d57c-d86c-4578-838f-\
+f29dd081b61c"],
+
+Cell["\<\
+c) Who, do you conclude, is the most alliterative president? \
+\>", "Text",
+ CellChangeTimes->{{3.668954099895384*^9, 3.668954106486988*^9}, {
+  3.700490264373575*^9, 3.700490264453682*^9}, {3.732546225565461*^9, 
+  3.732546227965554*^9}},ExpressionUUID->"1947360c-a6b1-45fd-ba02-\
+992fd8dd5a6a"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1174, 790},
+WindowMargins->{{Automatic, 16}, {Automatic, 0}},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e70970a6-e68c-4ef6-ab51-cac24612fcfb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 236, 4, 69, "Chapter",ExpressionUUID->"9acca38f-d118-414f-8470-ab1f39ba4a56"],
+Cell[819, 28, 259, 7, 85, "Subtitle",ExpressionUUID->"b87646b0-1c0e-4055-b736-c9febe742f52"],
+Cell[CellGroupData[{
+Cell[1103, 39, 1305, 18, 67, "Section",ExpressionUUID->"fbdf1c7c-d391-4b86-95a7-e8d4ce5e12fd"],
+Cell[CellGroupData[{
+Cell[2433, 61, 183, 3, 54, "Subsection",ExpressionUUID->"46a874b1-c68b-48f9-88e8-9462a6c24845"],
+Cell[2619, 66, 1037, 17, 32, "Item",ExpressionUUID->"5f68a88a-826e-4017-9f17-91ae7e7f6922"],
+Cell[CellGroupData[{
+Cell[3681, 87, 945, 17, 32, "Item",ExpressionUUID->"5791dd0c-00d2-4a0b-b7c6-b9afb5a574c6"],
+Cell[4629, 106, 833, 13, 28, "Subitem",ExpressionUUID->"fe3c8862-f581-497d-8bb1-0f1d59101231"],
+Cell[5465, 121, 862, 12, 28, "Subitem",ExpressionUUID->"3c10d5c1-539e-42e8-9ad9-0ba4cda4de57"],
+Cell[6330, 135, 876, 13, 28, "Subitem",ExpressionUUID->"d92ec12a-4c3d-4962-8e57-e74425d1b92e"]
+}, Open  ]],
+Cell[7221, 151, 1176, 18, 53, "Item",ExpressionUUID->"c5932b6c-b210-4142-b8e5-c4523c87a763"],
+Cell[8400, 171, 884, 20, 53, "Item",ExpressionUUID->"a5270f25-2f8f-4a8c-9d81-3be354f2ae8d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9321, 196, 183, 3, 54, "Subsection",ExpressionUUID->"7d378122-ecc8-4359-9a76-d04e6a6d6554"],
+Cell[9507, 201, 389, 7, 35, "Text",ExpressionUUID->"5c9f7079-3c96-4976-88e6-ec0b844b1ebf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9933, 213, 301, 5, 54, "Subsection",ExpressionUUID->"9cb8e9c4-bfea-4f08-8e49-f5e049a3b371"],
+Cell[10237, 220, 678, 11, 81, "Text",ExpressionUUID->"df0fca99-7128-4c91-bf6d-a6397604d332"],
+Cell[CellGroupData[{
+Cell[10940, 235, 169, 3, 45, "Subsubsection",ExpressionUUID->"b1bb0a64-eec7-4b0a-9c9a-38fbcc1843d0"],
+Cell[11112, 240, 448, 10, 35, "Text",ExpressionUUID->"c0ca6809-b394-4b14-b10a-0445ad5fdc2f"],
+Cell[11563, 252, 380, 9, 27, "Subitem",ExpressionUUID->"f557c6c9-c969-483b-a576-9efbfe12b8bd"],
+Cell[11946, 263, 593, 14, 28, "Subitem",ExpressionUUID->"d0f1c04b-15bc-4d82-b7a8-7c174b886185"],
+Cell[12542, 279, 161, 3, 35, "Text",ExpressionUUID->"5a89c894-2a6b-4edb-b7ce-65d16fce6fb3"],
+Cell[12706, 284, 345, 7, 27, "Subitem",ExpressionUUID->"24e3ae53-226c-4e7a-b6d1-e99b371c73e3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13088, 296, 264, 4, 45, "Subsubsection",ExpressionUUID->"cd53f980-0ff0-476d-a0a5-210f6001fcc0"],
+Cell[13355, 302, 173, 3, 35, "Text",ExpressionUUID->"2d1c7155-e045-4043-82d9-99eb7445c844"],
+Cell[CellGroupData[{
+Cell[13553, 309, 389, 8, 32, "Item",ExpressionUUID->"6648b038-0eaa-4dc9-84e5-21a300c2987c"],
+Cell[13945, 319, 224, 4, 27, "Subitem",ExpressionUUID->"80740432-263d-47a3-8108-101b1ef13149"],
+Cell[CellGroupData[{
+Cell[14194, 327, 225, 4, 27, "Subitem",ExpressionUUID->"e4c2fbec-e450-4840-8bb1-ebfa6007cbb0"],
+Cell[14422, 333, 508, 11, 30, "Input",ExpressionUUID->"3de793ae-3950-4ca3-97c7-a9d30700c508"],
+Cell[CellGroupData[{
+Cell[14955, 348, 270, 7, 30, "Input",ExpressionUUID->"91f23881-0b85-4e1c-9586-1e23d08f25c7"],
+Cell[15228, 357, 158, 3, 34, "Output",ExpressionUUID->"36afb48d-32a3-466b-b8b6-771f642763f1"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[15425, 365, 459, 9, 32, "Item",ExpressionUUID->"70d824ba-b15f-43e5-989d-6835a0d70293"],
+Cell[CellGroupData[{
+Cell[15909, 378, 1108, 22, 55, "Item",ExpressionUUID->"491a91df-a714-4f4c-9b99-e89d8543b95f"],
+Cell[17020, 402, 707, 12, 56, "Output",ExpressionUUID->"6580c6a9-f38e-4b35-8ca1-5966e55d9fe6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17764, 419, 582, 12, 32, "Item",ExpressionUUID->"179b4a9a-b6fd-4210-a3a4-244ac0f47ddd"],
+Cell[18349, 433, 385, 6, 28, "Subitem",ExpressionUUID->"19b700ee-6d1d-46a1-b973-e5a1e27b52e1"],
+Cell[18737, 441, 379, 6, 28, "Subitem",ExpressionUUID->"1f6bec44-0cfe-4624-856e-b6cf62220529"],
+Cell[19119, 449, 351, 6, 28, "Subitem",ExpressionUUID->"66341620-096c-426c-8e1a-5d0b5de526e7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19507, 460, 659, 13, 32, "Item",ExpressionUUID->"911ec4ab-af54-4425-a7a6-8ff0f54efba3"],
+Cell[20169, 475, 554, 11, 28, "Subitem",ExpressionUUID->"d52928f4-95c1-44e6-80e4-0c46c638c84a"],
+Cell[20726, 488, 554, 11, 28, "Subitem",ExpressionUUID->"6e8a1605-e45c-4d8a-829d-5100eeb8f672"],
+Cell[21283, 501, 589, 12, 28, "Subitem",ExpressionUUID->"b4bab49f-2014-4241-8e1b-39ce5b929788"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21933, 520, 581, 8, 54, "Subsection",ExpressionUUID->"1ec0ea9d-a816-421f-a738-7d26907a8cee"],
+Cell[CellGroupData[{
+Cell[22539, 532, 168, 3, 45, "Subsubsection",ExpressionUUID->"7db1c528-dcd5-496e-8883-76a313501e2b"],
+Cell[22710, 537, 569, 10, 58, "Text",ExpressionUUID->"3b91fd1b-9cfb-4472-b455-30cfb65c914d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23316, 552, 164, 3, 45, "Subsubsection",ExpressionUUID->"9d65cc61-437f-4407-a2f8-83694ee0d799"],
+Cell[23483, 557, 661, 12, 32, "ItemNumbered",ExpressionUUID->"c42f3387-3ddc-430e-860b-ba96a0df55ca"],
+Cell[24147, 571, 714, 12, 32, "ItemNumbered",ExpressionUUID->"b3989a94-ab13-4664-bff8-5df2f19386a3"],
+Cell[24864, 585, 1226, 22, 78, "ItemNumbered",ExpressionUUID->"de9a65bc-1fe7-4d8f-8b81-ef5c6a4fe5ae"],
+Cell[26093, 609, 1263, 26, 74, "ItemNumbered",ExpressionUUID->"d9cc3a93-79ae-433d-83dc-c0f86a3142dc"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27405, 641, 492, 7, 54, "Subsection",ExpressionUUID->"bc581c4c-7371-480c-886c-1d262220ab8f"],
+Cell[27900, 650, 395, 8, 35, "Text",ExpressionUUID->"fcf3f2a6-d7cb-4ddd-9e90-87c3a75210bd"],
+Cell[CellGroupData[{
+Cell[28320, 662, 248, 4, 45, "Subsubsection",ExpressionUUID->"a71936e0-5294-4010-a4b9-e415d67c6159"],
+Cell[28571, 668, 691, 16, 58, "Text",ExpressionUUID->"b8eafdaa-e1e1-4bbe-ab50-69901a42bf35"],
+Cell[29265, 686, 725, 16, 58, "Text",ExpressionUUID->"4b91469d-0e82-4088-b37e-793f71a700df"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30027, 707, 184, 3, 45, "Subsubsection",ExpressionUUID->"0b2f204f-cc61-4ec3-a99e-dfc8625a842e"],
+Cell[30214, 712, 507, 10, 35, "Text",ExpressionUUID->"e56614ba-f14c-43db-8e7e-cb0989dffa69"],
+Cell[30724, 724, 209, 7, 27, "Subitem",ExpressionUUID->"cce24a77-e5ae-4485-906f-f2f3d83c190a"],
+Cell[30936, 733, 220, 7, 27, "Subitem",ExpressionUUID->"1c11c4a9-49a1-4267-a62c-9c63a433f773"],
+Cell[31159, 742, 159, 3, 35, "Text",ExpressionUUID->"6213e1fb-2572-4fd3-aaf5-9f54654abc4e"],
+Cell[31321, 747, 232, 5, 27, "Subitem",ExpressionUUID->"8e8aef82-b595-4570-9f04-8e9b39ff7d0c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31590, 757, 161, 3, 45, "Subsubsection",ExpressionUUID->"161d3c61-68c4-48c3-92f7-5dd3afd066e9"],
+Cell[31754, 762, 178, 3, 35, "Text",ExpressionUUID->"2f895524-b650-401b-8e6f-584fe069fd77"],
+Cell[31935, 767, 476, 12, 58, "Text",ExpressionUUID->"90339f77-cf28-4947-847f-221af249948f"],
+Cell[32414, 781, 439, 10, 30, "Input",ExpressionUUID->"3106b2ad-a71d-46e9-93a2-b510223f08e4"],
+Cell[32856, 793, 328, 7, 58, "Text",ExpressionUUID->"de514d4a-8bf6-4e5d-b3c0-e23e9c86b95f"],
+Cell[33187, 802, 538, 13, 52, "Input",ExpressionUUID->"6ae23a82-6c83-478b-bf7e-26fd3b7372d1"],
+Cell[33728, 817, 866, 18, 150, "Text",ExpressionUUID->"c0e4d57c-d86c-4578-838f-f29dd081b61c"],
+Cell[34597, 837, 306, 6, 35, "Text",ExpressionUUID->"1947360c-a6b1-45fd-ba02-992fd8dd5a6a"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

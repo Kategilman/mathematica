@@ -1,0 +1,300 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10610,        292]
+NotebookOptionsPosition[      8964,        255]
+NotebookOutlinePosition[      9457,        273]
+CellTagsIndexPosition[      9414,        270]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{"Kate", " ", "Gilman"}], "Title"], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   StyleBox["Honor", "Title"], 
+   StyleBox[" ", "Title"], 
+   StyleBox["Pledge", "Title"], 
+   StyleBox[" ", "Title"], 
+   StyleBox[
+    "\"\<I pledge that in completing the problems below I have followed the \
+instructions above and adhered to the standards of the Davidson Honor \
+Code\>\"", "Subtitle"]}], 
+  StyleBox[" ", "Subtitle"]}], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"Time", " ", "&"}], "date", " ", 
+    RowBox[{"begun", ":", " ", 
+     RowBox[{"January", " ", "29"}]}]}], ",", " ", "2021", ",", " ", 
+   RowBox[{"2", ":", "05"}]}], "Subtitle"], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"Time", " ", "&"}], "date", " ", 
+    RowBox[{"ended", ":", " ", 
+     RowBox[{"January", " ", "29"}]}]}], ",", " ", "2021", ",", " ", 
+   RowBox[{"2", ":", "32"}]}], "Subtitle"], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{"Total", " ", "Time", " ", 
+   RowBox[{"Spent", ":", 
+    RowBox[{"27", " ", "minutes"}]}]}], "Subtitle"], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"Your", " ", 
+    RowBox[{"name", ":", " ", 
+     RowBox[{"Kate", " ", "Gilman"}]}]}], " ", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]"}], "Subtitle"], "\[IndentingNewLine]"}], "Subtitle", \
+"Input",
+ CellChangeTimes->{{3.820935775349017*^9, 3.8209357755830517`*^9}, {
+  3.820935941452334*^9, 3.820935961379651*^9}, {3.8209360104732237`*^9, 
+  3.8209361568664827`*^9}, {3.8209374674746113`*^9, 
+  3.820937495693149*^9}},ExpressionUUID->"9a6edddd-a6c2-4834-9f3b-\
+c4437e034fcd"],
+
+Cell[TextData[{
+ StyleBox["B+ \nv. good",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox["\nProblem #1: formatting needs attention.Title/pledge cell needs \
+attention; section headers needed below. Let\[CloseCurlyQuote]s talk about \
+this. \n\[LineSeparator]Problem #4: close, but not quite. See solutions. \n\n\
+Problem #5: Good answer! Note that Plus[Plus[...]...] is redundant. Just one \
+Plus would be sufficient. \n",
+  FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+ CellChangeTimes->{{3.821629150273683*^9, 3.8216291794177713`*^9}, {
+  3.821629259181295*^9, 
+  3.821629314831444*^9}},ExpressionUUID->"ab644c26-9ba1-4227-a67d-\
+2c79335a7a0f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Divide", "[", 
+  RowBox[{"250", ",", 
+   RowBox[{"Power", "[", 
+    RowBox[{"2", ",", "5"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.820936218912262*^9, 3.820936235435409*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"3e469499-8554-4781-9e83-2a99ad3725f1"],
+
+Cell[BoxData[
+ FractionBox["125", "16"]], "Output",
+ CellChangeTimes->{3.8209362364576902`*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"163cda27-ac29-4fa9-a504-adde9f6ba6bc"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Plus", "[", 
+   RowBox[{
+    RowBox[{"Power", "[", 
+     RowBox[{"a", ",", "b"}], "]"}], ",", 
+    RowBox[{"Subtract", "[", 
+     RowBox[{"c", ",", "a"}], "]"}]}], "]"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.820936270799801*^9, 
+  3.82093631367738*^9}},ExpressionUUID->"2279953a-4e30-4baf-8395-\
+aecd433cd4e5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Divide", "[", 
+   RowBox[{"1", ",", 
+    RowBox[{"Power", "[", 
+     RowBox[{
+      RowBox[{"Divide", "[", 
+       RowBox[{
+        RowBox[{"Subtract", "[", 
+         RowBox[{"1", ",", 
+          RowBox[{"Power", "[", 
+           RowBox[{"v", ",", "2"}], "]"}]}], "]"}], ",", 
+        RowBox[{"Power", "[", 
+         RowBox[{"c", ",", "2"}], "]"}]}], "]"}], ",", ".5"}], "]"}]}], "]"}],
+   "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.82093635296929*^9, 3.820936509131727*^9}, 
+   3.8209365825479393`*^9},
+ CellLabel->"In[7]:=",ExpressionUUID->"57a7ac69-f547-4ecd-bf41-2fe9aaa2f422"],
+
+Cell[BoxData[
+ FractionBox["1", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    FractionBox[
+     RowBox[{"1", "-", 
+      SuperscriptBox["v", "2"]}], 
+     SuperscriptBox["c", "2"]], ")"}], "0.5`"]]], "Output",
+ CellChangeTimes->{3.821629184959824*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"188ab948-87b2-4aea-931d-2ace19f49098"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Divide", "[", 
+  RowBox[{"1", ",", 
+   RowBox[{"Power", "[", 
+    RowBox[{
+     RowBox[{"Divide", "[", 
+      RowBox[{
+       RowBox[{"Subtract", "[", 
+        RowBox[{"1", ",", 
+         RowBox[{"Power", "[", 
+          RowBox[{"99930819", ",", "2"}], "]"}]}], "]"}], ",", 
+       RowBox[{"Power", "[", "299792458", "]"}]}], "]"}], ",", ".5"}], 
+    "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.820936689877146*^9, 3.820936746521386*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"e0326349-ad97-4688-a887-20eed42e74c6"],
+
+Cell[BoxData[
+ RowBox[{"1.0609422892292917`*^-20", "-", 
+  RowBox[{"0.00017326502465330593`", " ", "\[ImaginaryI]"}]}]], "Output",
+ CellChangeTimes->{3.820936749194832*^9, 3.821629232381322*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"b9d543cd-866c-4b24-879a-9226e8e1a92a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Plus", "[", 
+    RowBox[{
+     RowBox[{"Plus", "[", 
+      RowBox[{
+       RowBox[{
+        TemplateBox[{"\"Sivananda Twelve Basic Postures\"", 
+          RowBox[{"Entity", "[", 
+            
+            RowBox[{"\"YogaSequence\"", ",", 
+              "\"SivanandaTwelveBasicPostures\""}], "]"}], 
+          "\"Entity[\\\"YogaSequence\\\", \
+\\\"SivanandaTwelveBasicPostures\\\"]\"", "\"yoga sequence\""},
+         "Entity"], "[", 
+        TemplateBox[{"\"estimated duration\"", 
+          RowBox[{"EntityProperty", "[", 
+            RowBox[{"\"YogaSequence\"", ",", "\"EstimatedDuration\""}], "]"}],
+           "\"EntityProperty[\\\"YogaSequence\\\", \\\"EstimatedDuration\\\"]\
+\""},
+         "EntityProperty"], "]"}], ",", 
+       RowBox[{
+        TemplateBox[{"\"Bikram Twenty\[Hyphen]six\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"YogaSequence\"", ",", "\"BikramTwentySix\""}], "]"}], 
+          "\"Entity[\\\"YogaSequence\\\", \\\"BikramTwentySix\\\"]\"", 
+          "\"yoga sequence\""},
+         "Entity"], "[", 
+        TemplateBox[{"\"estimated duration\"", 
+          RowBox[{"EntityProperty", "[", 
+            RowBox[{"\"YogaSequence\"", ",", "\"EstimatedDuration\""}], "]"}],
+           "\"EntityProperty[\\\"YogaSequence\\\", \\\"EstimatedDuration\\\"]\
+\""},
+         "EntityProperty"], "]"}], ",", 
+       RowBox[{
+        TemplateBox[{"\"Ashtanga Closing Sequence\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"YogaSequence\"", ",", "\"AshtangaClosingSequence\""}], 
+            "]"}], "\"Entity[\\\"YogaSequence\\\", \
+\\\"AshtangaClosingSequence\\\"]\"", "\"yoga sequence\""},
+         "Entity"], "[", 
+        TemplateBox[{"\"estimated duration\"", 
+          RowBox[{"EntityProperty", "[", 
+            RowBox[{"\"YogaSequence\"", ",", "\"EstimatedDuration\""}], "]"}],
+           "\"EntityProperty[\\\"YogaSequence\\\", \\\"EstimatedDuration\\\"]\
+\""},
+         "EntityProperty"], "]"}]}], "]"}], ",", 
+     TemplateBox[{"24", "\"min\"", "minutes", "\"Minutes\""},
+      "Quantity"], ",", 
+     RowBox[{"TimeObject", "[", 
+      RowBox[{"{", 
+       RowBox[{"6", ",", " ", "30"}], "}"}], "]"}]}], "]"}], 
+   "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{
+  3.820936827670992*^9, {3.820936866436274*^9, 3.820936867864162*^9}, {
+   3.82093689855206*^9, 3.820936973473611*^9}, {3.820937024784307*^9, 
+   3.82093704525205*^9}, {3.820937304729066*^9, 3.820937381095625*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"8ab508dd-d1ae-4634-a7f3-7c4a4af23387"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{
+     StyleBox["\"Minute: \"", "TimeObjectLabel"], "\"10:14\""}], 
+   RowBox[{"TimeObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{"10", ",", "14"}], "}"}], ",", "\"Minute\"", ",", "None"}], 
+     "]"}]},
+  "TimeObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.820937048082802*^9, 3.820937325953045*^9, 
+  3.820937385914393*^9},
+ CellLabel->"Out[44]=",ExpressionUUID->"84c30744-eb7f-4256-a363-7678cb3030f2"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.820936861976507*^9, 
+  3.8209368644165487`*^9}},ExpressionUUID->"5a9d5d0d-80d5-44d0-b8db-\
+f37658b6e6f7"]
+}, Open  ]]
+},
+WindowSize->{808, 683},
+WindowMargins->{{Automatic, 162}, {148, Automatic}},
+TaggingRules->{
+ "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ee534732-b096-4eec-902d-795f0b371892"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1722, 44, 428, "Subtitle",ExpressionUUID->"9a6edddd-a6c2-4834-9f3b-c4437e034fcd"],
+Cell[2305, 68, 661, 14, 219, "Text",ExpressionUUID->"ab644c26-9ba1-4227-a67d-2c79335a7a0f"],
+Cell[CellGroupData[{
+Cell[2991, 86, 287, 6, 30, "Input",ExpressionUUID->"3e469499-8554-4781-9e83-2a99ad3725f1"],
+Cell[3281, 94, 174, 3, 51, "Output",ExpressionUUID->"163cda27-ac29-4fa9-a504-adde9f6ba6bc"]
+}, Open  ]],
+Cell[3470, 100, 368, 11, 52, "Input",ExpressionUUID->"2279953a-4e30-4baf-8395-aecd433cd4e5"],
+Cell[CellGroupData[{
+Cell[3863, 115, 630, 17, 52, "Input",ExpressionUUID->"57a7ac69-f547-4ecd-bf41-2fe9aaa2f422"],
+Cell[4496, 134, 323, 9, 64, "Output",ExpressionUUID->"188ab948-87b2-4aea-931d-2ace19f49098"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4856, 148, 544, 14, 30, "Input",ExpressionUUID->"e0326349-ad97-4688-a887-20eed42e74c6"],
+Cell[5403, 164, 272, 4, 34, "Output",ExpressionUUID->"b9d543cd-866c-4b24-879a-9226e8e1a92a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5712, 173, 2586, 58, 144, "Input",ExpressionUUID->"8ab508dd-d1ae-4634-a7f3-7c4a4af23387"],
+Cell[8301, 233, 478, 13, 42, "Output",ExpressionUUID->"84c30744-eb7f-4256-a363-7678cb3030f2"]
+}, Open  ]],
+Cell[8794, 249, 154, 3, 30, "Input",ExpressionUUID->"5a9d5d0d-80d5-44d0-b8db-f37658b6e6f7"]
+}, Open  ]]
+}
+]
+*)
+
